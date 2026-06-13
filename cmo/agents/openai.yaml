@@ -1,0 +1,7 @@
+interface:
+  display_name: "CMO"
+  short_description: "Social growth strategy and content planning"
+  default_prompt: "Use $cmo to build a social media growth strategy for my brand."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Reddit Demand Capture"
+  short_description: "Find compliant Reddit customer acquisition opportunities"
+  default_prompt: "Use $reddit-demand-capture to research Reddit opportunities for my product and draft a rules-compliant post or comment."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instagram Opportunity Finder"
+  short_description: "Find Instagram outreach prospects"
+  default_prompt: "Use $instagram-opportunity-finder to find and qualify Instagram accounts for outreach."

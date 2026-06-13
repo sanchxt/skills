@@ -1,0 +1,4 @@
+interface:
+  display_name: "Twitter Opportunity Finder"
+  short_description: "Find X/Twitter product leads"
+  default_prompt: "Find fresh X/Twitter posts and replies where my product can help. Use recent search, advanced operators, and safe outreach guidance."

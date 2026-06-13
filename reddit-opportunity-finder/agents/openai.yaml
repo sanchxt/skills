@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit Opportunity Finder"
+  short_description: "Find fresh Reddit posts and comments for outreach"
+  default_prompt: "Use $reddit-opportunity-finder to find fresh Reddit posts and comments where my product can help."

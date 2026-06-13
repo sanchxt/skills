@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview"
+  short_description: "Ask clarifying questions freely"
+  default_prompt: "Use $interview to ask clarifying questions until requirements, plans, tradeoffs, and implementation details are complete."

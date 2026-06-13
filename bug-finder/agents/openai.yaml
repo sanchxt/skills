@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug Finder"
+  short_description: "Rigorous senior-engineer bug review"
+  default_prompt: "Use $bug-finder to thoroughly review the files and related code for bugs, logic gaps, and integration mistakes."

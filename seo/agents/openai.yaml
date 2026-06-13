@@ -1,0 +1,7 @@
+interface:
+  display_name: "SEO"
+  short_description: "SEO audits, keywords, and content strategy"
+  default_prompt: "Use $seo to audit my site and plan organic search growth."
+
+policy:
+  allow_implicit_invocation: true

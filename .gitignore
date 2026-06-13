@@ -1,0 +1,17 @@
+# Local runtime and editor noise
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local databases and exports that skills may generate during use
+*.sqlite
+*.sqlite3
+*.db
+outputs/
+work/

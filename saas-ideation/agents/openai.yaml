@@ -1,0 +1,7 @@
+interface:
+  display_name: "SaaS Ideation"
+  short_description: "Research solo SaaS ideas for recurring revenue."
+  default_prompt: "Use $saas-ideation to research current demand and propose solo-founder SaaS ideas with monetization, platform, marketing, feasibility, and risk analysis."
+
+policy:
+  allow_implicit_invocation: true
