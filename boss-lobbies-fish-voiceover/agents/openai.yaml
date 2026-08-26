@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boss Lobbies Fish Voiceover"
+  short_description: "Personality-led gaming Shorts for Fish Audio"
+  default_prompt: "Use $boss-lobbies-fish-voiceover to write a fun, gameplay-first Fish Audio voiceover for this gaming Short."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Viral Story Scout"
+  short_description: "Find sourced stories for short-form edits"
+  default_prompt: "Use $viral-story-scout to find two compelling people-led stories for my next short-form edits."
+
+policy:
+  allow_implicit_invocation: false
