@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Shorts Producer"
+  short_description: "Minecraft Shorts ideas and production packs"
+  default_prompt: "Use $minecraft-shorts-producer to give me varied Minecraft Shorts ideas, then turn my selection into a complete ElevenLabs-ready production package."

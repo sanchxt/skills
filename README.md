@@ -28,6 +28,7 @@ Excluded sources:
 | `imagegen-frontend-web` | `imagegen-frontend-web` | Premium website design reference generation. |
 | `instagram-opportunity-finder` | `instagram-opportunity-finder` | Instagram prospect discovery and compliant outreach prep. |
 | `interview` | `interview` | Persistent clarification and requirement gathering. |
+| `minecraft-shorts-producer` | `minecraft-shorts-producer` | Minecraft Shorts ideation, ElevenLabs scripts, production direction, packaging, and growth testing. |
 | `reddit-demand-capture` | `reddit-demand-capture` | Reddit demand capture research and compliant response drafting. |
 | `reddit-opportunity-finder` | `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. |
 | `saas-ideation` | `saas-ideation` | Current-market SaaS and app ideation for solo builders. |

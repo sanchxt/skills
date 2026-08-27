@@ -1,4 +1,0 @@
-interface:
-  display_name: "Shorts TTS Scriptwriter"
-  short_description: "Gaming Shorts scripts plus upload packaging"
-  default_prompt: "Use $shorts-tts-scriptwriter to write research-backed gaming Shorts scripts with titles, descriptions, hashtags, music choices, and TTS directions."
