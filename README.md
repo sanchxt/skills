@@ -35,6 +35,7 @@ Excluded sources:
 | `seo` | `seo` | SEO strategy, audits, keyword research, and content planning. |
 | `taste-skill` | `design-taste-frontend` | Senior UI/UX design engineering guidance. |
 | `twitter-opportunity-finder` | `twitter-opportunity-finder` | X/Twitter opportunity discovery and outreach prep. |
+| `viral-story-shorts` | `viral-story-shorts` | Retention-focused short-form story scripting, production, packaging, and iteration guidance. |
 
 ## Layout
 
