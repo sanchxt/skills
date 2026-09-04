@@ -5,7 +5,7 @@ Private backup and source repository for manually created Codex skills.
 This repository intentionally contains only the user-created skills from:
 
 ```text
-C:\Users\tpbea\.codex\skills
+C:\Users\Sanchit\.codex\skills
 ```
 
 Excluded sources:
@@ -28,14 +28,14 @@ Excluded sources:
 | `imagegen-frontend-web` | `imagegen-frontend-web` | Premium website design reference generation. |
 | `instagram-opportunity-finder` | `instagram-opportunity-finder` | Instagram prospect discovery and compliant outreach prep. |
 | `interview` | `interview` | Persistent clarification and requirement gathering. |
-| `minecraft-shorts-producer` | `minecraft-shorts-producer` | Minecraft Shorts ideation, ElevenLabs scripts, production direction, packaging, and growth testing. |
+| `founderspawn` | `founderspawn` | FounderSpawn Minecraft Shorts ideation, selectable formats, ElevenLabs scripts, production direction, packaging, and growth testing. |
 | `reddit-demand-capture` | `reddit-demand-capture` | Reddit demand capture research and compliant response drafting. |
 | `reddit-opportunity-finder` | `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. |
 | `saas-ideation` | `saas-ideation` | Current-market SaaS and app ideation for solo builders. |
 | `seo` | `seo` | SEO strategy, audits, keyword research, and content planning. |
 | `taste-skill` | `design-taste-frontend` | Senior UI/UX design engineering guidance. |
 | `twitter-opportunity-finder` | `twitter-opportunity-finder` | X/Twitter opportunity discovery and outreach prep. |
-| `viral-story-shorts` | `viral-story-shorts` | Retention-focused short-form story scripting, production, packaging, and iteration guidance. |
+| `edit-so-goated` | `edit-so-goated` | Research, voiceover stories, music-led edits, production planning, packaging, and analytics for EditSoGoated. |
 
 ## Layout
 
@@ -44,5 +44,5 @@ Each top-level directory is one Codex skill. Supporting instructions live inside
 To restore a skill, copy its directory into your Codex skills directory:
 
 ```powershell
-Copy-Item -Recurse .\skill-folder C:\Users\tpbea\.codex\skills\
+Copy-Item -Recurse .\skill-folder C:\Users\Sanchit\.codex\skills\
 ```

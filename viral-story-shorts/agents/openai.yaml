@@ -1,4 +1,0 @@
-interface:
-  display_name: "Viral Story Shorts"
-  short_description: "Research and script cinematic short-form stories"
-  default_prompt: "Use $viral-story-shorts to research and script a cinematic short-form transformation story."

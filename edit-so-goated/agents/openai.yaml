@@ -1,0 +1,7 @@
+interface:
+  display_name: "EditSoGoated"
+  short_description: "Scout, script, and plan viral-style edits"
+  default_prompt: "Use $edit-so-goated to create one voiceover story concept and one music-led edit concept for a subject I choose."
+
+policy:
+  allow_implicit_invocation: true
