@@ -23,10 +23,10 @@ Use only the sections the user requested. Keep the pasteable voiceover isolated 
 
 Why #1: [recognition + tension + destination]
 
-## ElevenLabs-ready voiceover
+## Eleven v3-ready voiceover
 
 ```text
-[Narration only]
+[Paste-ready narration only, with sparse audible V3 audio tags and punctuation-based pacing.]
 ```
 
 **Timing:** [word count] words; approximately [range] seconds at an emotionally natural pace.

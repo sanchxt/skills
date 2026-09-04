@@ -59,7 +59,7 @@ Unless the user asks for only one component, provide:
 
 1. **Angle and evidence:** one-sentence premise, factual spine, uncertainty notes, and linked sources.
 2. **Hook set:** three materially different truthful hooks; label the recommended one and why it should stop the intended viewer.
-3. **ElevenLabs-ready voiceover:** one fenced block containing narration only. Exclude citations, headings, timestamps, editor notes, quotation marks used as directions, and bracketed stage directions. Add supported TTS/audio tags only when the user requests them or specifies a compatible model.
+3. **Eleven v3-ready voiceover:** one fenced block containing only paste-ready narration. Default to Eleven v3 formatting unless the user explicitly requests another model or asks for clean text: use a few contextually appropriate square-bracket audio tags, ellipses, capitalization, and line breaks to shape delivery. Do not include citations, headings, timestamps, editor notes, or non-audible stage directions. Read [references/eleven-v3-voiceover.md](references/eleven-v3-voiceover.md) before drafting or revising voiceover.
 4. **Timing check:** word count, estimated natural duration, and target range.
 5. **Production notes:** interview/scene clip options with verified URLs and timestamps, a voiceover fallback, caption emphasis, and music arc when relevant.
 6. **Packaging:** platform-native title/caption/cover text and one CTA when requested.
