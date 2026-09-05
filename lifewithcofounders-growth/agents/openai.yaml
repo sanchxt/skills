@@ -1,0 +1,4 @@
+interface:
+  display_name: "LifeWithCofounders Growth"
+  short_description: "Research and package high-retention creator content"
+  default_prompt: "Use $lifewithcofounders-growth to research what is working now and build today's best post package."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "DailyGoatGame"
+  short_description: "Gaming Shorts, Reels, trends, clips, and channel growth"
+  default_prompt: "Use $dailygoatgame to find six current PC/console gaming video ideas, prioritizing original audio and text-led edits, and recommend the best two to make first."

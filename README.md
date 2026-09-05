@@ -21,6 +21,7 @@ Excluded sources:
 | `brandkit` | `brandkit` | Premium brand kit and visual identity generation. |
 | `bug-finder` | `bug-finder` | Rigorous implementation review and bug finding. |
 | `cmo` | `cmo` | CMO-style marketing, social strategy, and content workflows. |
+| `dailygoatgame` | `dailygoatgame` | Gaming Shorts and Reels research, clip sourcing, production packaging, community, analytics, and monetization planning for DailyGoatGame. |
 | `gpt-tasteskill` | `gpt-taste` | Advanced UX/UI and GSAP motion direction. |
 | `grill-me` | `grill-me` | Relentless design and plan interrogation. |
 | `image-to-code-skill` | `image-to-code` | Image-first website implementation guidance. |
@@ -29,6 +30,7 @@ Excluded sources:
 | `instagram-opportunity-finder` | `instagram-opportunity-finder` | Instagram prospect discovery and compliant outreach prep. |
 | `interview` | `interview` | Persistent clarification and requirement gathering. |
 | `founderspawn` | `founderspawn` | FounderSpawn Minecraft Shorts ideation, selectable formats, ElevenLabs scripts, production direction, packaging, and growth testing. |
+| `lifewithcofounders-growth` | `lifewithcofounders-growth` | Research-led Instagram strategy, scripts, trend verification, production, and analytics for LifeWithCofounders. |
 | `reddit-demand-capture` | `reddit-demand-capture` | Reddit demand capture research and compliant response drafting. |
 | `reddit-opportunity-finder` | `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. |
 | `saas-ideation` | `saas-ideation` | Current-market SaaS and app ideation for solo builders. |
