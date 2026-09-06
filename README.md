@@ -33,6 +33,7 @@ Excluded sources:
 | `lifewithcofounders-growth` | `lifewithcofounders-growth` | Research-led Instagram strategy, scripts, trend verification, production, and analytics for LifeWithCofounders. |
 | `reddit-demand-capture` | `reddit-demand-capture` | Reddit demand capture research and compliant response drafting. |
 | `reddit-opportunity-finder` | `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. |
+| `sanchita-feels` | `sanchita-feels` | Relatable psychology and emotional-wellbeing Reels and Shorts research, scripting, production packaging, and growth testing for SanchitaFeels. |
 | `saas-ideation` | `saas-ideation` | Current-market SaaS and app ideation for solo builders. |
 | `seo` | `seo` | SEO strategy, audits, keyword research, and content planning. |
 | `taste-skill` | `design-taste-frontend` | Senior UI/UX design engineering guidance. |

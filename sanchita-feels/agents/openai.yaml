@@ -1,0 +1,4 @@
+interface:
+  display_name: "SanchitaFeels"
+  short_description: "Relatable psychology reels and growth system"
+  default_prompt: "Use $sanchita-feels to create a detailed short-form reel package for my Instagram and YouTube accounts."
