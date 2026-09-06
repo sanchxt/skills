@@ -1,4 +1,4 @@
 interface:
   display_name: "LifeWithCofounders Growth"
-  short_description: "Research and package high-retention creator content"
-  default_prompt: "Use $lifewithcofounders-growth to research what is working now and build today's best post package."
+  short_description: "Broad-audience Reel strategy for this duo"
+  default_prompt: "Use $lifewithcofounders-growth to research broad-audience opportunities and build today's strongest non-cringe Reel concepts."

@@ -1,108 +1,152 @@
 # Production playbook
 
+Use this reference after a concept passes the creative-taste and quality gates. Strong editing cannot rescue a premise with no broad interest, visible progression, or payoff.
+
 ## Reel architecture
 
-Choose duration from the idea; never stretch an idea to hit a generic target.
+Choose duration from the amount of entertainment or story available; never stretch an idea to hit a benchmark.
 
 | Use case | Working length | Shape |
 |---|---:|---|
-| Relatable micro-moment or visual joke | 6–12s | recognition → twist → loop |
-| Question/answer, opinion, or challenge | 12–25s | hook → contrast/escalation → payoff |
-| Timely explainer or founder lesson | 20–40s | hook → minimum context → 2–3 beats → implication |
-| Emotional founder story | 30–60s | result/stakes → turning points → honest resolution |
+| Visual joke, reaction, or micro-reveal | 6–12s | recognition → twist → loop/landing |
+| Guess, choice, or single-round challenge | 10–20s | rule/stake → attempt → reveal |
+| Conversation with a second engine | 12–30s | question/tension → turn → proof/action → payoff |
+| Multi-round competition or experiment | 20–45s | result/stake → selected attempts → escalation → outcome |
+| Emotional or personal story | 25–60s | stakes/artifact → turning points → emotional change |
 
-These are starting ranges, not algorithm rules. Let retention and follows decide.
+These are starting ranges, not algorithm rules. Let retention, sends, follows, and production quality decide.
 
 ### Timing
 
-- **0–1.5s:** Show the question, conflict, result, or unusual visual. No greeting, logo animation, or scene-setting.
-- **1.5–4s:** Make the viewer's promised payoff unmistakable.
-- **Middle:** Deliver a new piece of information, reaction, or visual change whenever comprehension or energy needs it. Cuts are tools, not a metronome.
-- **Final 1–3s:** Pay off, reveal, or land the line. Use a CTA only if it adds a natural next action.
+- **First frame:** show the subject, result, unusual object, emotion, score, claim, or question. Avoid greetings, logos, and account exposition.
+- **First 1–2 seconds:** make the promised experience legible even to someone who does not know the creators.
+- **Early turn:** introduce the rule, surprise, disagreement, or missing answer quickly.
+- **Middle:** show only attempts, facts, reactions, or visuals that change the viewer's understanding or investment.
+- **Final beat:** reveal the result, land the joke, make the decision, or complete the emotional turn. Add a CTA only when it is the natural next beat.
 
-The first spoken line and first on-screen text should complement each other, not repeat a vague setup. A hook is not necessarily loud; specificity and unresolved tension often outperform exaggeration.
+Do not use cuts as a metronome or add random B-roll to disguise static writing.
 
-## Conversational duo templates
+## Conversation standard
 
-### Question → surprising answer → proof
+A duo conversation should create movement, not serve as a news anchor desk.
 
-1. A, already on screen: “Why is everyone suddenly [behavior/event]?”
-2. Cut/reframe to B: one sentence that changes the viewer's interpretation.
-3. Visual proof, example, or three concise beats.
-4. Return to A for the consequence or punchline.
+- Give each speaker a different information state, goal, prediction, constraint, or emotional reaction.
+- Keep lines short enough to sound spoken. Interruptions, incomplete sentences, and physical reactions are often more natural than polished alternating paragraphs.
+- Move from speech into proof, an attempt, a visual, a clip the creators may use, a prop, a score, a location, or a consequence.
+- Do not make both people state balanced sides of a marketing-style debate.
+- Do not write a closing moral about teamwork, partnerships, different strengths, or “what this teaches us” unless a real story naturally earns it.
 
-Keep the first exchange under about four seconds. The transition must reveal something, not merely decorate the edit.
+Read dialogue aloud. Rewrite any line that exists mainly to explain context the edit or on-screen text could supply faster.
 
-### Accusation → defense → audience verdict
+## Useful format shapes
 
-1. A states a specific behavior and consequence.
-2. B defends it with an equally plausible logic.
-3. One counterexample each.
-4. End on the unresolved decision; on-screen text can ask “Who is right?”
+### Question → answer → action/reveal
 
-### Result first → how it happened
+1. A asks a natural question tied to a recognizable subject.
+2. B's answer changes the stakes or opens a specific gap.
+3. The Reel moves into evidence, footage, prediction, challenge, demonstration, or emotional context.
+4. Return to A only when the reaction or next decision improves the payoff.
 
-1. Show the win, failure, number, artifact, or reaction.
-2. “This happened because we…”
-3. Two turning points, including one mistake.
-4. End with what changed, not a generic moral.
+The answer alone is not the video.
 
-### Expectation → reality
+### Result first → selected attempts → outcome
 
-Use two or three sharply contrasted shots. The joke must be readable without sound, but natural audio or dialogue should reward sound-on viewers.
+1. Show the score, failure, finished object, reaction, or surprising comparison.
+2. State the constraint in one line.
+3. Keep only attempts that escalate, mislead, or reveal personality.
+4. End on the judgment or consequence.
 
-## Hook standards
+### One knows → one guesses
 
-Generate hooks from different mechanisms rather than synonyms:
+1. Establish what must be identified or predicted.
+2. Let the guess reveal real reasoning or personality.
+3. Give one useful clue or escalation.
+4. Reveal with a visual or consequence, not only “correct/incorrect.”
 
-- Specific conflict: “We nearly lost a client because neither of us sent one message.”
-- Counterintuitive result: “Posting twice a day made our content worse.”
-- Identity recognition: “Every two-person startup has this argument.”
-- Open loop: “He approved this design. Then I noticed one thing.”
-- Timely question: “Why are Indian creators suddenly doing ___?”
-- Visual proof: begin on the broken prototype, awkward reaction, invoice, whiteboard, or result.
+### Competing choices → judge
 
-Reject hooks that could introduce any account: “You won't believe this,” “Three tips for success,” “POV: you're an entrepreneur,” or “Watch till the end.”
+1. Establish budget, time, rule, destination, or objective.
+2. Show contrasting choices without narrating every step.
+3. Use a credible result: blind vote, stranger/friend judgment, price, time, taste, completion, or audience follow-up.
+4. Avoid declaring a winner merely because the script needs one.
 
-## Shot and edit rules
+### Story with artifact
 
-- Start on a face, action, result, or object with narrative meaning.
-- Frame the two founders differently enough that role changes are instantly legible.
-- Use captions for comprehension; keep them inside safe zones, high contrast, and short enough to read once.
-- Use punch-ins, screenshots, B-roll, images, and sound effects to clarify or heighten a beat. Do not use random motion to conceal weak writing.
-- Capture clean original dialogue. If using background music, keep it below speech.
-- Export clean vertical 9:16 video without another platform's watermark.
-- When using third-party sports/news footage, prefer licensed, platform-native remix tools, brief necessary excerpts with commentary, stills the team can legally use, or original reenactment/graphics. A credit is not a license.
+1. Open on a photo, object, location, message, clip, or result with genuine stakes.
+2. Supply the minimum context.
+3. Show two or three turning points.
+4. End on what happened or changed emotionally; skip the generic lesson.
 
-## CTA decision tree
+## Hooks
 
-- If the ending already creates an obvious opinion: end on the disagreement; use a short on-screen question or caption prompt.
-- If the idea is intrinsically sendable: do not explain that it is sendable. At most, use “send this to your cofounder” occasionally.
-- If the post starts a series or promises a result: “Part 2 is the actual outcome” or “follow to see which one we chose” is justified.
-- If offering a resource: use a truthful, low-friction keyword CTA only when the resource exists and replies can be fulfilled.
-- If none applies: use no CTA. A clean payoff is stronger than a bolted-on request.
+Generate hooks from different mechanisms, not synonym swaps:
 
-Avoid stacking “like, comment, share, save, and follow.” Avoid fake questions whose only purpose is comments.
+- **Result:** “This is what ₹500 got us. One of us got robbed.”
+- **Rule/stake:** “We had ten minutes and the same prompt. Only one result gets posted.”
+- **Prediction:** “If this match actually happens, this is the moment everyone will wait for.”
+- **Recognition:** “There is always one person who orders this for the whole table.”
+- **Question with consequence:** “Would you still pick it if you couldn't see the brand?”
+- **Visual contradiction:** open on two dramatically different outcomes from the same constraint.
+- **Emotional open loop:** begin with the reaction, object, or image that only makes sense after the story.
+
+Reject vague hooks such as “You won't believe this,” “Watch till the end,” “We need to talk,” “POV: you're an entrepreneur,” or “Here are three tips.” Reject specificity that is technically precise but emotionally irrelevant.
+
+The spoken line and on-screen text should complement each other. Use text to shorten context, display rules/scores, clarify names, or create a second layer—not to duplicate every word.
+
+## Visual and performance rules
+
+- Start on a face with an emotion, an action, a result, or an object with narrative meaning.
+- Make speaker/role changes instantly legible through blocking, framing, props, wardrobe, position, or captions.
+- Show progression: changing score, attempts, choices, evidence, location, before/after, or rising consequence.
+- Keep captions inside safe zones, high contrast, and readable in one pass.
+- Use punch-ins, screenshots, sound effects, stills, and B-roll only when they clarify or heighten a beat.
+- Capture clean dialogue. Preserve natural pauses or reactions when they are funnier than a cut.
+- Export clean 9:16 video without another platform's watermark.
+
+## Topical and third-party footage
+
+For sport, news, film, or creator references, build the Reel so original performance, commentary, experiment, graphics, or storytelling remains the main value. Prefer licensed material, platform-native remixing, original reenactments, or stills/graphics the team may use. Credit does not replace permission.
+
+State rumors and reports accurately. Do not overload spoken dialogue with sourcing; use concise on-screen/caption attribution where appropriate.
+
+## CTA decision
+
+- If the ending naturally creates a choice or prediction, end there; an on-screen question may be enough.
+- If a real result is coming later, a Part 2 or follow-for-result line is justified only when Part 2 will be made.
+- If a post is intrinsically sendable, do not explain that it is sendable.
+- If offering a resource, use a keyword CTA only when the resource exists and replies can be fulfilled.
+- Otherwise use no CTA. Never stack like, comment, save, share, and follow requests.
 
 ## Caption and cover
 
-- Cover: 3–7 useful words that identify the conflict, question, or series. Optimize for profile conversion, not Reels-feed discovery alone.
-- Caption: one strong first line, one layer of context not already spoken, then an optional natural prompt. Short is the default.
-- Use plain topic language a viewer might search. Hashtags may categorize but are not a reach strategy; use only a few genuinely relevant tags when useful.
-- For news or claims, cite or name the source in the caption when appropriate.
+- **Cover:** usually 3–7 words identifying the subject, stake, question, or result. Optimize for profile comprehension.
+- **Caption:** one strong line, one layer of context not already spoken, then an optional natural prompt. Short is the default.
+- Use plain topic language viewers may search. Use only genuinely relevant hashtags when useful; do not treat them as a reach engine.
+- For news or factual claims, name or link the source when appropriate.
 
 ## Audio
 
-Audio should perform one of four jobs: set emotion, create recognition, support timing, or carry the format. For dialogue-led Reels, voice is primary and music is subtle. Do not name “trending songs” from memory. Verify current Instagram use, date, region, direction of growth, account size using it, and fit; offer a no-song/original-audio option.
+Audio should carry recognition, emotion, rhythm, transition, or the format itself. Dialogue-led Reels usually need only subtle music or original audio. Do not name a current song without the verification process in `research-and-trends.md`.
+
+## Carousel standard
+
+Use a carousel when the value is comparison, sequence, reference, detail, or a visual story that benefits from swiping. Do not convert a weak Reel idea into text slides.
+
+1. Cover promises a specific curiosity or outcome.
+2. Slide 2 pays off enough to prove the swipe was worthwhile.
+3. Each slide adds a new example, turn, comparison, or piece of evidence.
+4. Use the duo through photos, annotations, opposing choices, reactions, or a real story—not repeated headshots beside generic advice.
+5. Final slide lands the conclusion or useful prompt; do not use a generic engagement request.
 
 ## Film-ready output template
 
 ```text
-Primary job:
-Audience insight:
+Primary job and target viewer:
+Topic / entertainment mechanism / duo execution:
 Recommended hook:
-Alternate hooks:
-Duration:
+Alternate hook mechanisms:
+Visible payoff:
+Estimated duration:
 
 0:00–0:02 — shot / speaker / exact line / on-screen text
 0:02–0:06 — ...
@@ -111,7 +155,9 @@ Cover:
 Caption:
 CTA:
 Audio:
-Trial variant:
+Variant testing one variable:
 Hypothesis:
+Likely failure mode:
 Review metrics:
 ```
+

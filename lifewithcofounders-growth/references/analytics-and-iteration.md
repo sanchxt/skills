@@ -1,109 +1,136 @@
 # Analytics and iteration
 
-## Measurement hierarchy
+Use the account's own comparable results to replace provisional strategy with evidence. Evaluate the earliest failure in the viewing journey before prescribing more editing, posting volume, or a new niche.
 
-Evaluate a post against its primary job and the account's own comparable baseline.
+## Classify what was tested
 
-### Reach posts
+Record the independent layers so a winning topic is not mistaken for a winning format:
 
-- non-follower reach/views share;
-- skip rate or view rate where available;
-- average watch time and average percentage viewed;
+```text
+date | format | content lane | topic | timely/evergreen | entertainment mechanism |
+duo execution | opening mechanism | opening visual | payoff type | duration |
+primary job | views | reach | non-follower % | avg watch time | avg % viewed |
+skip/view rate | likes | comments | saves | shares/sends | profile visits | follows |
+CTA | audio type | production minutes | notes at 24h | notes at 7d
+```
+
+Preserve screenshots or exports because metric names, definitions, and reporting windows can change. Do not silently compare views with reach or mix old and new metric definitions.
+
+## Measurement by primary job
+
+### Reach
+
+- non-follower reach or non-follower share of views;
+- early skip/view signal where available;
+- average watch time and percentage viewed;
 - shares/sends per reach;
 - profile visits and follows per reach.
 
-### Relationship posts
+### Connection
 
-- comments per reach and comment quality;
-- story replies, poll participation, DMs, and returning viewers;
 - follows per reach;
-- repeated audience language or requests.
+- meaningful comments, replies, DMs, returning viewers, and audience callbacks;
+- comment language showing recognition of the creators' personalities or requesting another episode;
+- negative signals that the interaction felt staged, confusing, or repetitive.
 
-### Depth posts
+### Depth
 
 - saves per reach;
-- watch time or carousel dwell/completion proxies;
+- watch time or carousel completion/dwell proxies;
 - profile visits;
-- replies showing application or recognition.
+- replies showing that the content was remembered, used, or discussed.
 
-### Conversion posts
+### Conversion
 
 - qualified profile/link actions, DMs, inquiries, or booked calls;
-- negative tradeoff in reach, unfollows, or audience sentiment;
-- lead quality, not raw clicks.
+- lead quality;
+- tradeoff in reach, follows, unfollows, or audience sentiment.
 
-Use reach or views as the denominator when possible. Engagement divided by followers can mislead when non-follower distribution changes. Instagram's current “views” may include repeats, so retain definitions and avoid mixing periods silently.
-
-## Data capture
-
-Maintain one row per post:
-
-```text
-date | format | series | topic | timely/evergreen | duration | hook type |
-primary job | views | reach | non-follower % | avg watch time | skip/view rate |
-likes | comments | saves | shares/sends | profile visits | follows | CTA |
-production minutes | notes at 24h | notes at 7d
-```
-
-Also preserve screenshots/exports because in-app windows and definitions can change.
+Use reach or views as the denominator when possible. Follower-based engagement can mislead when non-follower distribution changes.
 
 ## Review windows
 
-- **24 hours:** identify obvious hook/distribution differences; do not declare a final winner.
-- **7 days:** compare within cohort and log meaningful comments, follows, saves, and sends.
-- **Every 14 posts or two weeks:** make portfolio decisions.
-- **At 6 and 12 weeks:** reassess positioning, cadence, and whether lifestyle expansion is earning the right kind of followers.
+- **24 hours:** note early hook and distribution differences; do not declare a final winner.
+- **7 days:** compare within a relevant cohort and log sends, follows, saves, and meaningful comments.
+- **Every 10–14 posts:** make allocation decisions with sample sizes visible.
+- **After 30 relaunch posts:** reassess the content lanes, repeatable formats, profile promise, cadence, and whether any business bridge is helping or diluting growth.
 
-## Diagnosis tree
+Small samples are directional. One viral or failed Reel does not prove a niche.
 
-### Low reach and high early skipping
+## Diagnose the earliest failure
 
-Likely issue: opening promise, audience fit, unclear first frame, or weak topic. Test a different first line/visual on the same core payoff via Trial Reel.
+### Low reach and heavy early skipping
+
+Likely candidates: weak subject, unclear first frame, slow context, familiar premise, or mismatch with recommendation eligibility. Test the same payoff with a different opening only when the payoff is still worth testing.
+
+### Acceptable opening retention, then a sharp drop
+
+The hook may overpromise, the rule may be confusing, or the middle may lack progression. Shorten explanation, reveal the constraint earlier, and keep only attempts that change the stakes.
 
 ### Good watch time, weak sends and follows
 
-Likely issue: consumable but not identity-building or socially useful. Strengthen specificity, emotional recognition, or the reason to follow these two characters.
-
-### Good engagement from followers, little non-follower reach
-
-Check recommendation eligibility/account status, originality, watermarks, topic clarity, and whether the concept makes sense without prior context. Do not invent a “shadowban.”
+The post may be consumable but not socially useful or personality-building. Inspect whether the payoff is worth discussing and whether the duo adds a memorable perspective rather than merely presenting the topic.
 
 ### High reach, weak follows
 
-The post may be trend-dependent or off-promise. Improve profile/pinned posts and turn the successful mechanism into a series consistent with the account identity.
+The topic may be event-dependent, the profile promise may be unclear, or the execution may hide the creators' personalities. Create a sibling that retains the winning mechanism and gives the duo a clearer role; do not automatically retreat to founder content.
+
+### Good follower response, little non-follower reach
+
+Check account/recommendation status, originality, watermarks, topic clarity, and whether the first frame assumes prior knowledge. Do not invent a shadowban.
 
 ### Strong comments, weak watch time
 
-The premise is discussable but overlong or front-loaded with context. Move the disagreement/result earlier and remove repeated lines.
+The subject may be discussable but the video may be slow or over-explained. Move the choice, claim, or disagreement earlier. Separate genuine discussion from comments driven by correction or confusion.
 
 ### Strong saves, weak shares
 
-This may be a successful depth post. Do not force it to behave like a reach post. Pair it with a more emotional or conversational Reel on the same idea.
+This can be a successful depth post. Do not force every post to earn the same behavior. Pair the subject with a more emotional, social, or challenge-led treatment for reach.
+
+### High reach with negative or irrelevant comments
+
+Do not count controversy alone as strategic success. Check whether the audience is one the account wants, whether the premise misrepresented the creators, and whether follows/profile actions justify repeating it.
 
 ## Experiment design
 
-Change one major variable per test: hook, opening visual, length, role order, topic, payoff, CTA, or audio. Keep the rest similar. Use at least three posts before declaring a repeatable format weak, unless production cost or audience risk is clearly unacceptable.
+Change one major variable per test when practical: topic, opening, entertainment mechanism, duo role, length, payoff, CTA, audio, or visual execution. Keep a short written hypothesis.
+
+Use at least two or three executions before abandoning a low-cost repeatable format, unless the premise violates the taste profile, requires fakery, or performs clearly below baseline at the same early failure point.
 
 For winners, make siblings rather than exact duplicates:
 
-- same format, new situation;
-- same premise, roles reversed;
-- same story, result-first opening;
-- audience comment becomes the next episode;
-- Reel becomes a carousel or vice versa.
+- same mechanism, new mainstream topic;
+- same topic, new mechanism;
+- roles reversed;
+- higher/lower constraint;
+- result-first versus question-first opening;
+- audience question becomes the next attempt;
+- Reel becomes a genuinely useful carousel or vice versa.
 
-Use Trial Reels to test unfamiliar genres, topics, and openings with non-followers. Treat trials as directional: distribution pools differ, and a single test is noisy.
+Use Trial Reels for unfamiliar genres, formats, or openings when available. Treat trials as directional because distribution pools and sample sizes vary.
 
-## Biweekly decision memo
+## Allocation decisions
+
+Use a 70/20/10 allocation only after winners exist:
+
+- about 70% proven topic/format combinations;
+- about 20% adjacent tests;
+- about 10% wildcards.
+
+Before winners exist, explore more evenly across the provisional lanes in `account-strategy.md`. Do not label the old founder positioning “proven” merely because it matches the account name.
+
+## Review memo
 
 Return:
 
-1. What improved or declined, with definitions and sample sizes.
-2. Top three posts and the likely mechanisms—not just topics.
-3. Bottom three and the earliest observable failure.
-4. Comment/DM language worth turning into content.
-5. What to repeat, modify, pause, and newly test.
-6. Next 14-post allocation by series and primary job.
-7. One production-system change to protect sustainability.
+1. What improved or declined, with metric definitions and sample sizes.
+2. Top and bottom posts, separated into topic, mechanism, opening, visual progression, and payoff.
+3. The earliest observable failure for weak posts.
+4. Comment/DM language worth using as research.
+5. What to repeat, modify, pause, or newly test.
+6. Allocation for the next 10–14 posts.
+7. One production-system improvement.
+8. Any explicit taste feedback that should be proposed for `creative-taste.md`.
 
-Never promise growth “no matter what.” Platform distribution is probabilistic. The controllable commitment is disciplined research, original creative, fast learning, and sustainable repetition.
+Never promise growth. The controllable work is better research, broader and more original concepts, disciplined testing, honest measurement, and sustainable production.
+

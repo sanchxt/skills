@@ -1,135 +1,117 @@
 # Account strategy
 
-## Strategic diagnosis
+## Status: provisional until account data is reviewed
 
-The faceless Eravue feed asked cold viewers to care about a company before they cared about its people. LifeWithCofounders performed better because human faces, contrast, and interpersonal chemistry create more reasons to stop, react, and return. The stall near 200 followers does not prove the account is exhausted; it more likely indicates an inconsistent audience promise, weak repeatable formats, insufficient iteration data, or a production pause.
+The available history establishes that human-led LifeWithCofounders content performed better than Eravue's faceless corporate content, then stalled around 200 followers and paused. It does **not** establish that cofounder content was the winning topic, why growth stopped, or which future niche will work.
 
-The answer is not “be generic influencers.” A generic lifestyle page has no memory hook. Use a narrow **identity container** and broad **topic inputs**:
+Direct Instagram inspection was unavailable during the 2026-09-06 skill rebuild because the browser security policy could not be verified. Do not claim to have audited the grid, Reels, comments, or Insights. Replace provisional decisions with evidence after receiving post links, screenshots, an Insights export, or a successful read-only account audit.
 
-> Two very different cofounders reacting to work, the internet, culture, and the reality of building things together.
+## Separate identity, subject, and promise
 
-The viewer follows the characters and their dynamic; current topics provide discovery; real founder life creates depth and credibility.
+- **Identity:** the same male/female duo appears repeatedly. They are real cofounders, but need not discuss work.
+- **Subject:** may range across sport, entertainment, internet culture, lifestyle, food, challenges, technology, everyday social situations, personal stories, and occasional building/business content.
+- **Viewer promise:** each post quickly delivers a recognizable curiosity, emotion, laugh, result, or reveal; repeated appearances make the personalities familiar over time.
 
-## Audience promise
+The account does not need a narrow topic before testing. It does need enough consistency in faces, tone, and a few execution formats for viewers and the creators to recognize what is being learned.
 
-Primary audience: Indian English/Hinglish viewers aged roughly 18–34 who enjoy relatable work, creator, startup, technology, and interpersonal content. Secondary audiences include aspiring founders, young professionals, and potential Eravue buyers who encounter the account through entertainment rather than a sales pitch.
+## Working audience hypothesis
 
-Profile promise should be understandable in one glance. A working bio direction:
+Primary exploration audience: Indian English/Hinglish viewers, broadly 18–34, who already consume mainstream Reels about culture, humor, lifestyle, sports, entertainment, technology, and social dynamics. Founders and young professionals can be part of that audience, but should not define it.
 
-> Two cofounders. Different brains. One company.  
-> Building, arguing & figuring it out in public.  
-> Co-founders @eravuedotcom
+Do not claim a precise demographic without Insights. Adjust language, region, topic mix, and posting time from actual viewer geography, age, follower activity, and comment language.
 
-Pin three posts: “start here / who we are,” the strongest representative recurring format, and a story with emotional or founder depth. Covers should make the series/topic legible, not just look uniform.
+## Initial content lanes
 
-## Content portfolio
+Use this as a 14–30 post exploration mix, not a permanent formula:
 
-Use four primary pillars rather than unrelated niches:
+1. **Current culture, sport, and entertainment — about 25%.** Timely subjects with an opinion, challenge, prediction, emotional angle, reenactment, or revealing piece of proof. A news recap alone is not a concept.
+2. **Challenges, competitions, and experiments — about 25%.** A constraint, score, timer, judge, blind choice, before/after, or measurable result makes the video legible without account context.
+3. **Everyday duo and lifestyle — about 20%.** Food, outings, shopping, routines, city experiences, choices, small adventures, and relatable situations. Use actual personality contrast; do not manufacture couple behavior.
+4. **Curiosity, opinions, and stories — about 20%.** One-knows/one-does-not, surprising questions, real memories, cultural opinions, personal discoveries, or audience-supplied prompts with a clear payoff.
+5. **Founder, creator, and Eravue reality — no more than about 10% initially.** Only unusually specific, true, broadly understandable stories or experiments. Avoid client-service skits and generic entrepreneurship advice.
 
-1. **Cofounder Chemistry (35%)** — disagreements, habits, complementary strengths, “who is more likely,” miscommunication, small victories, work-life friction.
-2. **Two Takes on What Everyone Is Talking About (25%)** — one asks; the other explains, challenges, or reveals a surprising angle on a current event, tech moment, sport, film, social behavior, or internet debate.
-3. **Build in Public, Without the LinkedIn Voice (25%)** — real decisions, failed ideas, client moments, product experiments, money/time tradeoffs, behind-the-scenes reality.
-4. **Useful but Human (15%)** — concise founder/work lessons demonstrated through dialogue, challenge, or story instead of lecture.
+If the creators' genuine interests make another lane more authentic, add it as a controlled test. Do not force equal allocation when a timely opportunity or a proven format deserves more posts.
 
-Keep direct Eravue conversion content around 5–10% during the relaunch. A relevant project or product can appear organically in founder stories without a sales CTA.
+## Reusable format engines
 
-## Repeatable series
+Formats are containers; the topic and payoff must still be strong.
 
-### 1. “Wait, why is everyone talking about…?”
+### Question → surprising answer → second engine
 
-Person A asks a culturally current question; Person B gives the surprising one-line answer; a zoom, prop, screenshot, or original visual opens the story. This borrows the **structure**, not the creator's wording or identity.
+One person asks a question that a real viewer might ask. The answer creates an open loop, then the Reel moves into footage, a challenge, a prediction, evidence, an emotional turn, or a joke. Do not stop at explanation.
 
-Variants: wrong-answer cold open; “explain it to me like I'm your cofounder”; A challenges B's first answer; payoff returns to A for a reaction.
+### Competing attempts → result
 
-### 2. “The Cofounder Court”
+Both receive the same goal and a clear constraint. Show enough process to create investment, then reveal a score, judge, outcome, or consequence. AI versus human and a modified ₹500 challenge belong here.
 
-One founder accuses the other of a universal work behavior. Both get one sentence; viewers decide who is right. Designed for comments without begging for them.
+### One knows → one guesses → reveal
 
-### 3. “Things we thought founders do vs what we actually do”
+Knowledge asymmetry creates natural conversation. The uninformed person's guess must be plausible or funny, and the reveal must matter beyond proving them wrong.
 
-Fast contrast or mini-story. The reveal must be specific and lived, not a recycled entrepreneur meme.
+### Blind choice or ranking → consequence
 
-### 4. “One decision, two brains”
+Hide labels, prices, identities, clips, foods, songs, or options. Each choice changes what happens next. Avoid static list-reading.
 
-Show a real choice—pricing, logo, client reply, workspace, tool, outfit for a pitch, travel, product feature. Each person argues one side. Reveal the decision later in Stories or the next episode.
+### Test or recreate → before/after
 
-### 5. “She said / He heard” or “He said / She heard”
+Try a trend, hack, experience, visual, challenge, or claim and show the result first or early. The creators' reaction should follow the evidence rather than replace it.
 
-Workplace miscommunication reframed through the male/female cofounder dynamic. Avoid lazy gender stereotypes; the humor should come from their actual personalities.
+### Story with receipts → emotional turn
 
-### 6. “Can this idea make money?”
+Use a true artifact, message, object, photo, place, or clip to anchor a concise story. End on the consequence or changed understanding, not a moral about partnerships.
 
-One founder pitches a strange, timely, or audience-submitted idea in 15 seconds. The other pressure-tests it. This connects entertainment to Eravue's builder credibility.
+### Visual transition → new context
 
-### 7. “We tried it so you don't have to”
+Use a question, match cut, prop, movement, or facial close-up to transition into the actual subject. The transition should reveal or transform something, not merely imitate another creator's edit.
 
-Run a small real experiment: a productivity technique, AI tool, ₹500 marketing tactic, viral recipe, work routine, or trend. State the result first, then the test.
+## Format versus series
 
-### 8. “A client did not say this, but…”
+Do not name a recurring series before at least two or three executions show promise. A format becomes a series when viewers recognize it, the creators can reproduce it without strain, and results remain competitive across different topics.
 
-Act out anonymized, composite agency/startup situations. Label composites and never expose client information.
+When a post wins, make siblings rather than clones:
 
-### 9. “Founder lore”
+- same format, different subject;
+- same subject, different mechanism;
+- roles reversed;
+- higher or lower constraint;
+- audience comment becomes the next prompt;
+- result-first versus question-first opening.
 
-Short true stories: first client, worst meeting, almost quitting, a disagreement that improved the product, the smallest win that felt huge.
+## 30-post relaunch experiment
 
-### 10. “Cofounders outside office hours”
+### Posts 1–10: widen the search
 
-Food, travel, challenges, shopping, sport, or city life still filtered through the two-character dynamic. This permits lifestyle expansion without dissolving the identity.
+- Sample every content lane.
+- Reuse only two or three execution formats so topic effects are easier to see.
+- Lead with broad reach concepts; include at most one founder/business-led post.
+- Use original dialogue and at least one visible change or result per Reel.
+- Use Trial Reels for unfamiliar genres when available.
 
-## 90-day relaunch
+### Posts 11–20: test mechanisms, not only topics
 
-### Weeks 1–2: establish recognition
+- Repeat the strongest two mechanisms across different subjects.
+- Rework promising topics with a different opening or payoff.
+- Compare non-follower reach, early retention/skip signals, sends, profile visits, and follows per reach.
+- Use comments and DMs to identify language and questions, not to manufacture engagement bait.
 
-- Publish one strong feed post daily: five Reels and two carousels per week.
-- Use only three recurring Reel structures so viewers and the production team can learn them.
-- Post Stories most days: poll, behind-the-scenes frame, reshare with a new question, and one reply-driven prompt.
-- Use up to three additional Trial Reels per week for different hooks, lengths, or topics. Do not post two polished feed pieces daily by default.
-- Reintroduce the people and premise; do not apologize for the hiatus.
+### Posts 21–30: build recognition
 
-### Weeks 3–6: identify winners
+- Put roughly half the posts into the best-performing two format/topic combinations.
+- Add callbacks or sequels only when a first post created genuine curiosity.
+- Test profile and pinned-post clarity if high-reach posts are not converting to follows.
+- Keep one or two wildcards so the strategy does not converge prematurely.
 
-- Compare series using non-follower reach, average watch time, sends/share rate, follows per reach, and qualitative comments.
-- Keep roughly 70% proven formats, 20% adjacent tests, 10% wildcards.
-- Turn each winning premise into at least three siblings: new situation, inverted roles, and audience-supplied version.
-- Use Collab posts only where both accounts/creators genuinely share the content and audience.
+At the end, decide what to increase, modify, pause, or retest. Do not declare an account niche from one outlier.
 
-### Weeks 7–12: compound
+## Cadence
 
-- Concentrate half the output in the top two series.
-- Introduce sequels and callbacks that reward returning viewers.
-- Add one higher-depth founder story or useful carousel weekly.
-- Test one subtle Eravue bridge weekly only if audience response remains healthy.
-- Decide whether to expand toward broader lifestyle based on follows and retention from “outside office hours,” not personal preference alone.
+Start with one strong feed post on most days if production quality is sustainable. A second daily item should usually be a Trial Reel, Story, reply-to-comment, alternate opening, or lightweight derivative—not another padded primary concept. Reduce frequency when acting, scripting, filming, or editing quality drops.
 
-## Initial evergreen idea bank
+No generic posting-frequency benchmark outranks the account's production capacity or performance data.
 
-1. The sentence each of us says before a bad decision.
-2. Who should reply to an angry client?
-3. The ₹500 expense one founder calls essential and the other calls nonsense.
-4. What people think cofounder meetings look like vs the actual meeting.
-5. The first idea we were certain would work—and why it failed.
-6. “Explain our company without using marketing words.”
-7. One founder designs the other founder's perfect workday.
-8. The tiny behavior that makes someone impossible to work with.
-9. We swap roles for one client call.
-10. A startup opinion we disagree on every time.
-11. The tool we paid for and stopped using in seven days.
-12. Guess which founder wrote this message.
-13. We let a coin decide a real business choice.
-14. The most un-founder-like thing about each of us.
-15. What ₹1 lakh means to a founder at three different stages.
-16. The “quick call” that was not quick.
-17. Can this weird audience-submitted app idea make money?
-18. One compliment from a client we still remember.
-19. The business advice we followed for too long.
-20. If our browser histories switched for a day.
-21. A date-style activity evaluated like a business meeting—without claiming to be a couple.
-22. Who knows the other cofounder better: five rapid questions.
-23. The founder task that looks easy until you do it.
-24. We reviewed our first website/design/product without mercy.
-25. A real disagreement, what each of us feared, and what we chose.
+## Profile and conversion
 
-## Cadence principle
+The profile should describe the experience viewers will get now, not merely the creators' occupation. Do not finalize bio copy until the first test mix and strongest interests are clearer. It is acceptable to identify them truthfully as cofounders and tag Eravue without promising that every post is about building a company.
 
-Seven strong feed posts a week is the relaunch default, not a law. One daily primary post builds enough repetitions to learn while protecting quality. A second daily item should usually be a Trial Reel, Story, reply-to-comment Reel, or lightweight variation. Reduce to 4–5 strong feed posts if scripting, performance, or editing quality drops; increase only when a repeatable series can be batched without filler.
+Keep explicit Eravue promotion rare during exploration. A business bridge is justified only when the post naturally creates relevant curiosity or demonstrates real work; do not append it to unrelated entertainment.
+
