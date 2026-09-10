@@ -14,7 +14,8 @@ Use these as editing guides, not padding targets:
 
 - 15–22 seconds: about 42–65 words
 - 23–35 seconds: about 65–100 words
-- 36–50 seconds: about 100–145 words, only for a real story or multi-stage test
+- 36–50 seconds: about 100–145 words, only for a real story or multi-stage test.
+- Longer stories: estimate from the actual word count at a plausible roughly 140–180 words per minute, allowing pauses. A 250-word tragedy is not a 45-second script. Use the requested duration and selected voice delivery rather than imposing a universal short cap.
 
 Prefer natural text near the intended duration over cramming extra words into a faster setting. A reasonable starting speed is 1.0; suggest a modest increase only when the selected voice stays clear. ElevenLabs supports roughly 0.7–1.2 speed, but extremes may reduce quality.
 

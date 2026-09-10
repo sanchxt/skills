@@ -1,12 +1,12 @@
 # Hook And Script Engine
 
-Use this for every finished script. The goal is not maximum loudness; it is maximum clarity plus an unresolved, honest question.
+Use this for every finished script. For non-Minecraft stories, apply the object, character, and stakes of that story; Minecraft is only the optional visual medium. Read `story-and-brainrot.md` for expanded narrative modes. The goal is not maximum loudness; it is maximum clarity plus an unresolved, honest question.
 
 ## Engineer The First Two Seconds
 
 The hook is a coordinated package:
 
-- frame zero: result, danger, anomaly, object, or choice;
+- frame zero: result, danger, anomaly, object, or choice for enacted scenes; for background gameplay, hook text or a subject insert can carry the premise;
 - first caption: usually 2–5 concrete words;
 - first spoken clause: usually 4–7 words;
 - complete premise: normally clear within 8–12 spoken words.
@@ -35,7 +35,7 @@ Reject hooks that:
 
 ## Build Retention With Causality
 
-Use one main open loop. Each beat should answer one small question while creating the next.
+Use one main open loop for a single story. Each beat should answer one small question while creating the next. Shower-thought anthologies may instead deliver several distinct question/payoff units under one clear theme.
 
 Prefer:
 
@@ -84,7 +84,7 @@ Resolve the promise before asking for anything. Choose one ending:
 
 - Result: stop on the visible answer or emotional peak.
 - Loop: the final image or phrase changes how the opening is understood.
-- Comment: ask a bounded Minecraft choice, score, prediction, or defensible verdict.
+- Comment: ask a bounded story choice, hypothetical, score, prediction, or defensible verdict.
 - Subscribe: name the exact repeatable future value or genuinely planned next test.
 - Watch next: point to a directly related video that is actually attached with YouTube's Related Video feature.
 
@@ -94,8 +94,8 @@ Keep a spoken CTA to one short sentence. Never stack like, comment, share, and s
 
 Revise until all are true:
 
-1. A cold viewer can repeat the premise after two seconds.
-2. The spoken hook matches the first visual and caption.
+1. A cold viewer encounters immediate tension and can understand the premise promptly; do not mutilate a natural hook to meet a rigid two-second cutoff.
+2. The spoken hook matches the caption and any subject insert; enacted footage depicts it, while background footage remains compatible and readable.
 3. Every sentence changes knowledge, stakes, or emotion.
 4. Pronouns have obvious referents.
 5. The payoff answers the exact opening question.

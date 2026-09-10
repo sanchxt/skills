@@ -20,15 +20,17 @@ State mood, speed, emphasis, and pause/slow-down point outside the script.
 
 ## 4. Recording And Edit Blueprint
 
-| Time | Gameplay/visual | Voiceover purpose | On-screen text | Edit/SFX |
-|---|---|---|---|---|
+Choose background gameplay, gameplay plus inserts, a few supporting scenes, or fully enacted scenes. Simple footage does not require a simple plot.
+
+| Approx. time / narration phrase | Gameplay action and camera | Purpose | Insert and entry/exit cue | Caption / SFX | Setup or source |
+|---|---|---|---|---|---|
 
 Requirements:
 
-- frame zero, first caption, and spoken hook express the same premise;
+- the spoken hook, caption, and subject insert express the same premise; literal frame matching is required for enacted scenes, while background gameplay can supply rhythm;
 - captions normally use 2–6 words and stay inside the vertical safe area;
 - visual changes occur when the meaning, proof, emotion, or action changes—not on an arbitrary timer;
-- reaction GIFs/chips punctuate a beat and leave before they obscure the Minecraft story;
+- GIFs/images may illustrate serious narration or punctuate comedy; tie each to a phrase and protect readability; describe asset content and rights/source status rather than assuming a popular GIF is available;
 - identify every shot that must be recorded, staged, replayed, split-screened, or sourced under an appropriate license;
 - state world setup, commands, seed, items, mobs, replay/mod tools, edition, and version when relevant;
 - show the promised proof or result on screen;
@@ -60,10 +62,10 @@ Include:
 
 Confirm:
 
-- a cold viewer understands the premise by about two seconds;
+- a cold viewer encounters immediate tension and quickly understands the premise;
 - the middle progresses through causes, proof, or narrowing clues;
 - the payoff resolves the opening exactly;
-- the CTA follows value and asks for one relevant action;
+- any CTA follows value and asks for one relevant action; an intentional clean ending is valid unless the user requested a CTA;
 - the concept is not an interchangeable template or shallow remix;
 - factual claims and version differences are verified;
 - every shot is recordable and every external asset has a plausible rights path.

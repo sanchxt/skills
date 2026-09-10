@@ -1,3 +1,5 @@
+> Historical research snapshot. Its Minecraft-first lane recommendations predate the user's September 2026 horror/SCP/story direction. Follow SKILL.md and growth-system.md for current preferences; reverify dated claims before using them.
+
 # Research Foundation
 
 Snapshot date: 2026-09-04. This explains why the skill makes its core decisions. It is not a permanent trend report; re-browse date-sensitive claims.

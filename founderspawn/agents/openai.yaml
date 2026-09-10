@@ -1,4 +1,4 @@
 interface:
   display_name: "FounderSpawn"
-  short_description: "Natural, retention-led Minecraft Shorts scripts"
-  default_prompt: "Use $founderspawn to choose a format and give me one polished, copy-ready ElevenLabs script with a strong first-two-second hook."
+  short_description: "Horror, SCP and brainrot scripts over Minecraft"
+  default_prompt: "Use $founderspawn to create an original horror, SCP, or brainrot Short with a strong hook, earned payoff, copy-ready ElevenLabs narration, and simple Minecraft gameplay cues."

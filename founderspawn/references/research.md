@@ -4,10 +4,17 @@ Browse before relying on information that can change. Use current evidence to ch
 
 ## Browse For
 
+- Named SCP entries/tales, adaptations, entity abilities, crossovers, and asserted lore outcomes;
 - Minecraft releases, game drops, snapshots, previews, mechanics, commands, rarity, edition differences, and version history;
 - current YouTube Shorts analytics definitions, features, monetization, and policies;
 - current memes, sounds, Minecraft topics, creator activity, and observable format patterns;
 - rights or license conditions for music, GIFs, clips, mods, maps, and other external assets.
+
+## SCP And Story Sources
+
+Read the actual SCP Wiki entry/tale and its author/source information before adapting named lore. Check current licensing/attribution guidance and any separate artwork conditions for the specific material used. Distinguish entry text, a particular tale/canon, interpretation, crossover speculation, and original fan fiction; do not imply a single universal SCP continuity. Keep source links and necessary attribution in the production notes/description, outside the ElevenLabs narration. Do not copy a competitor transcript as a shortcut to the source. If source access fails, state that and offer clearly original fiction instead of inventing canon. Verify uncertain identifiers against the source; auto-transcripts can drop digits.
+
+For a sourced Minecraft thought experiment, inspect the original creator/source and required assumptions. Explain hypothetical possibility versus demonstrated behavior; do not invent exact probabilities or remove caveats to strengthen a hook.
 
 ## Source Priority
 
@@ -31,7 +38,7 @@ When the request depends on what works now:
 6. Search audience criticism and creator postmortems for saturation, trust, rights, or monetization problems.
 7. Adapt the underlying viewer promise; never copy scripts, branding, recurring characters, thumbnails, or staged events.
 
-For current meme or sound use, prefer signals repeated across more than one current source. If freshness cannot be verified, use an evergreen Minecraft-specific joke instead.
+For current meme or sound use, prefer signals repeated across more than one current source. If freshness cannot be verified, use an evergreen joke or original story within the requested subject instead.
 
 ## Evidence Rules
 

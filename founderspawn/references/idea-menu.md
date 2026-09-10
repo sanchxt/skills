@@ -1,47 +1,9 @@
-# Idea Menu
+# FounderSpawn Idea Development
 
-Use this when the user wants Minecraft Shorts ideas, a growth experiment, or a batch without a settled topic. Offer choices before writing every full script.
+For a broad request, offer a concise varied menu within the channel's requested direction: horror, SCP, twist stories, character tragedy, shower thoughts, POV comedy, interactive choices, and GIF-supported explainers. For a specific mode, develop distinct premises within that mode. When the user asks for scripts, deliver the requested number of full scripts without requiring an intermediate selection.
 
-## Default Menu
+For each idea give: premise/hook, human stake or comic engine, key progression, concrete payoff, visual treatment, recording effort, and source status. Give enough ending detail for the user to judge the idea; do not hide a weak payoff behind 'shocking twist.'
 
-Return 9–12 specific, recordable ideas spanning at least six modes from `formats.md`. Include at least one idea from each of these value types: proof, participation, story, usefulness, and humor.
+Privately consider a wider set and reject trivial stakes, recycled twists, repeated plot structures, vague ominous notes, and ideas dependent on unjustified factual claims. A batch should vary its emotional engine and outcome, not just nouns. Prefer at least some ambitious stories recordable over simple walking/parkour with a few inserts.
 
-For each idea include:
-
-| Field | Requirement |
-|---|---|
-| Concept | One sentence with a concrete Minecraft object, action, and payoff |
-| Format | Exact format ID from `formats.md` |
-| Hook | First spoken sentence; complete enough to understand without the title |
-| Frame zero | Exact visual visible immediately |
-| Progression | Two or three changes that prevent a flat middle |
-| Payoff | What the viewer definitely sees or learns |
-| Return path | Natural next episode, comment choice, or related video |
-| Effort | Easy, medium, or advanced |
-| Evidence | Why it is worth testing; never a viral guarantee |
-
-Do not return cosmetic variations of one danger story. Finish with a recommended three-idea starter cluster, explaining what different audience response each idea tests. Ask for a selection only after providing useful choices.
-
-## Selection Heuristic
-
-Prefer ideas with at least four of these:
-
-- recognizable Minecraft noun;
-- contradiction, consequence, or meaningful uncertainty;
-- visible proof or transformation;
-- a result measurable in one Short;
-- a middle with two real turns or narrowing clues;
-- a comment question that can produce the next episode;
-- a repeatable series promise;
-- footage the user can record without fabricating events;
-- a distinct angle compared with interchangeable Minecraft templates.
-
-Reject ideas that depend on slow lore, fake rarity, unsupported absolutes, generic "Minecraft but" rules, scraped stories, stolen clips, or a payoff that exists only in narration.
-
-## Freshness
-
-For current updates, memes, sounds, creators, or newly popular formats, browse using `research.md`. If fresh evidence is unavailable, label the menu evergreen and avoid pretending a topic is trending.
-
-## After Selection
-
-If the user selects an idea, move directly to the default script output or full package they requested. Infer reasonable details and list assumptions compactly instead of creating unnecessary back-and-forth.
+For SCP ideas, distinguish source-grounded adaptation from original fan fiction. Verify source-dependent premises before presenting their lore as established. Do not invent current trends. Use `reference-patterns.md` for structural inspiration, never plot substitution. Suggest a coherent starter cluster only when useful; no viral guarantees.

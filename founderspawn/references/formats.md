@@ -4,31 +4,21 @@ Choose one primary format. A secondary device is allowed only when it sharpens t
 
 ## `brainrot-gif`
 
-Aliases: `FounderSpawn-BrainrotGIF-Format`, `brainrot`, `gif commentary`.
+Aliases: `FounderSpawn-BrainrotGIF-Format`, `brainrot GIFs`, `gif commentary`.
 
-Use Minecraft gameplay as the narrative spine and reaction inserts as punctuation. The GIFs/chips must react to a specific beat; they cannot substitute for a story.
-
-1. Open on a Minecraft contradiction, loss, impossible result, or accusation.
-2. Establish the rule or problem in one line.
-3. Add two escalating proof beats, each with a new consequence.
-4. Use at most one major reaction insert per beat; return to gameplay before the premise is forgotten.
-5. Deliver a visible payoff, then one short choice/comment CTA or a clean loop.
-
-Best length: 18–28 seconds. Keep meme references current only after browsing. Prefer owned/licensed reaction assets or original channel-made recurring chips.
+This is a visual treatment usable with comic narration, a serious story, or a factual/speculative explainer. Use Minecraft movement as background rhythm and subject images/reaction inserts as semantic support. Choose the narrative mode separately using `story-and-brainrot.md`. Do not force gameplay to be the narrative spine or force a 28-second cap. Specify what each insert communicates; keep a complete story or explanation beneath the presentation.
 
 ## `story-over-gameplay`
 
 Aliases: `FounderSpawn-Story-Telling`, `storytelling`, `parkour story`.
 
-Use original gameplay as visual rhythm while the narration tells an original, permissioned, or user-supplied story. This format tests narrator personality more than Minecraft expertise, so use it selectively on a Minecraft-branded channel.
+Original fiction, horror, emotional stories, or sourced adaptations over owned Minecraft footage are a core channel mode. The story need not concern Minecraft. Choose a narrative engine in `story-and-brainrot.md`; use background gameplay or a few supporting scenes when recording should be simple. Typical drafting band: 35–65 seconds, with 60–110 seconds available for a substantial arc. Never fabricate true personal experiences or scrape/rephrase another creator's script.
 
-1. Start with the irreversible or socially awkward moment, not biography.
-2. Name who wanted what.
-3. Chain two or three turns through BUT/THEREFORE logic.
-4. Reveal the decision, cost, or punchline.
-5. End at the emotional peak; use a verdict question only if two reasonable sides exist.
+## Expanded Narrative Modes
 
-Best length: 28–50 seconds. Do not scrape or lightly rewrite Reddit stories. Avoid unrelated recycled clips, generic confessions, and fake first-person claims.
+Read `story-and-brainrot.md` for `rule-horror`, `twist-mystery`, `character-tragedy`, `competent-escape`, `urban-legend`, `scp-story`, `shower-thoughts`, `character-pov`, `interactive-choice`, and `causal-explainer`.
+
+`scp-story` requires source verification through `research.md`; original SCP-inspired fan fiction must be identified as such. Shower thoughts and crossovers distinguish speculation from established lore. `brainrot` without further constraints may select shower thoughts, POV comedy, or GIF narration; infer from the user's examples.
 
 ## `in-game-story`
 
@@ -170,4 +160,4 @@ Best length: 20–35 seconds. This is a community wrapper; pair it with myth, bu
 
 ## Selection Guidance
 
-For a young channel, favor formats that build a Minecraft-specific reason to return: `myth-test`, `quiz`, `in-game-story`, `horror`, `mistake-fix`, and a more original `brainrot-gif` series. Treat `story-over-gameplay` as an intentional personality experiment and generic clip rankings as a rights/originality risk, not default growth engines.
+For broad FounderSpawn requests, prioritize horror, SCP narratives, twist stories, shower thoughts, and character comedy, with GIF treatment as an independent option. Retain the Minecraft-specific modes above for explicit requests. Select a coherent batch with distinct emotional engines and feasible visuals. Do not default back to tips, quizzes, or tiny building mishaps merely because footage is Minecraft.

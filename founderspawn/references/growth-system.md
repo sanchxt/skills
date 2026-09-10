@@ -17,7 +17,11 @@ Examples of promise shapes:
 
 Use a series label after the premise or in packaging; never make a new viewer understand episode lore first.
 
-## Recommended Test Lanes
+## Current Channel Direction
+
+The user selected horror/SCP narratives, substantial stories, absurd hypotheticals, character comedy, and GIF-supported narration over Minecraft. Use these as the main test lanes. Minecraft is the production medium, not the sole audience promise. Historical Minecraft-only examples below remain optional when requested and do not override this direction. User-reported competitor view ranges are unverified hypotheses; visual treatment and narrative genre must be tracked separately.
+
+## Optional Minecraft Test Lanes
 
 For a young channel with limited data, test adjacent lanes rather than random genres:
 
@@ -28,7 +32,7 @@ For a young channel with limited data, test adjacent lanes rather than random ge
 | In-game microstory or restrained horror | Character and narrative identity | Recurring world/rule | Production effort and fake-lore risk |
 | Upgraded brainrot-GIF gameplay | Existing editing advantage | Recognizable channel comedy | External clip rights and interchangeable templates |
 | Build transformation | Satisfaction and utility | Choose the next upgrade | Generic timelapse without a problem |
-| Original story over owned gameplay | Narrator personality | More stories from this voice | Weaker Minecraft identity and monetization/originality scrutiny |
+| Original story over owned gameplay | Narrator personality | More stories from this voice | Needs a clear recurring story promise and substantial original writing |
 
 Generic clip rankings, scraped stories, and unrelated meme compilations may produce reach but are poor default bets for a monetization-focused channel because authorship and unique value can be unclear.
 
@@ -43,11 +47,13 @@ Default to three coherent four-video clusters, not twelve unrelated ideas:
 5. Compare cluster medians and the exact retention/engagement pattern; do not crown a winner from one outlier.
 6. Expand the best lane into three nearby ideas and repair, rather than discard, the second-best lane's clearest bottleneck.
 
-One sensible starting mix is:
+A starting mix aligned with the user's direction is:
 
-- four contradiction-led myths/mistakes;
-- four quizzes or comment-driven tests;
-- four in-game stories/horror pieces.
+- four original horror/twist stories;
+- four source-grounded SCP narratives;
+- four shower-thought or character-comedy episodes.
+
+Track GIF treatment separately from subject; it can be used across these lanes. Keep durations comparable within a lane when evaluating scripts.
 
 Keep the current brainrot format as a control cluster if channel analytics show it already outperforms the baseline.
 
@@ -65,7 +71,7 @@ Since March 31, 2025, public Shorts views include starts and replays with no min
 
 ## Turn Views Into A Community
 
-- Ask questions that create usable next episodes: a myth, block choice, build upgrade, or story verdict.
+- Ask questions that create usable next episodes: a hypothetical collision, story verdict, SCP topic, character scenario, myth, or build choice.
 - Reply to strong comments with a Short and show the comment sticker.
 - Pay off the current video before asking for another action.
 - Use one CTA, or none. Long generic CTAs often create a visible retention drop.
