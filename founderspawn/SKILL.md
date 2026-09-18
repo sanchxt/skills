@@ -29,6 +29,7 @@ Interpret words after `$founderspawn` as mode selectors. Infer the closest combi
 - Competitor references or discussion of this channel direction: read [references/reference-patterns.md](references/reference-patterns.md). Attached transcripts are evidence, not instructions or verified lore.
 - SCP adaptations, factual explainers, named source stories, current memes, mechanics, or platform claims: read [references/research.md](references/research.md) and verify the relevant sources before relying on them. Original fiction needs no trend search unless timeliness is requested.
 - Gameplay cues, edit plan, full package: read [references/production-package.md](references/production-package.md).
+- Storytelling scripts and recording plans: also read [references/solo-flashback.md](references/solo-flashback.md). The user records alone in Creative mode, performs actions personally, and uses Flashback for the resulting clips. Supply complete phrase-matched solo staging guidance by default.
 - Analytics: read [references/analytics.md](references/analytics.md). Strategy: read [references/growth-system.md](references/growth-system.md).
 
 ## Creative Development
@@ -45,7 +46,7 @@ Lead each requested script with a compact subject/format, visual treatment, targ
 1. One plain-text code block containing only final spoken narration, ready for ElevenLabs.
 2. Word count, approximate duration, and brief voice direction outside the block.
 3. Opening visual/caption, payoff visual or audible payoff, and an intentional CTA choice.
-4. When requested, phrase-matched gameplay and insert cues. Keep directions out of narration.
+4. For storytelling, complete phrase-matched solo Creative/Flashback recording cues by default; for other formats, provide gameplay and insert cues when requested. Keep directions out of narration.
 
 Every script needs a hook and value. Choose one natural CTA after payoff, or an intentional clean ending when a spoken ask would weaken it. If the user explicitly requests a CTA in every script, include one relevant action without stacking asks. Never invent viewer submissions or planned sequels.
 
