@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Generate comprehensive, structured research prompts designed for external deep research tools. When Codex's available web search and browser tools are not sufficient for the depth of research needed, this workflow produces a detailed prompt that can be sent to an external AI or research platform with deep research capabilities, yielding 10-20 pages of thorough analysis.
+Generate comprehensive, structured research prompts designed for external deep research tools. When the available web search and browser tools are not sufficient for the depth of research needed, this workflow produces a detailed prompt that can be sent to an external AI or research platform with deep research capabilities, yielding 10-20 pages of thorough analysis.
 
 ## When to Use This
 
@@ -129,7 +129,7 @@ Save the generated prompt to `.growth/research-prompts/{topic-slug}.md`:
 1. Copy everything between the `---` lines above
 2. Send it to the user's preferred deep research tool
 3. Save the response to: `.growth/research/{topic-slug}.md`
-4. Return to Codex and ask it to consume the research
+4. Return to Claude Code and ask it to consume the research
 ```
 
 ### Step 4: Consuming External Research

@@ -6,7 +6,7 @@ Collect and organize all essential information about a brand/client to enable ef
 
 ## Process
 
-When setting up a new brand, collect information in manageable batches. Use Codex's native user-input tool when it is available and useful for constrained choices; otherwise ask concise plain chat questions. Don't overwhelm with all questions at once.
+When setting up a new brand, collect information in manageable batches. Use the AskUserQuestion tool when it is available and useful for constrained choices; otherwise ask concise plain chat questions. Don't overwhelm with all questions at once.
 
 ### Batch 1: Core Identity
 

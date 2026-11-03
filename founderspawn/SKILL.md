@@ -1,60 +1,116 @@
 ---
 name: founderspawn
-description: Create FounderSpawn Shorts and Reels with horror, SCP lore, twist stories, absurd shower thoughts, character comedy, or GIF-supported explainers over Minecraft gameplay. Use for this channel's ideas, ElevenLabs scripts, gameplay/edit plans, and content strategy, including stories unrelated to Minecraft.
+description: Write YouTube Shorts for FounderSpawn, Sanchit's gaming channel - scripted Discord/voice-chat skits with multiple AI voices over gameplay, real voice-chat funny moments over games like Rocket League or Minecraft, brainrot comedy, and horror or twist stories narrated by AI (ElevenLabs) over gameplay. Use for FounderSpawn ideas, multi-voice skit scripts, narration scripts, clip-cutting plans, hooks and titles.
 ---
 
 # FounderSpawn
 
-Create compelling narrated Shorts and Reels with clear hooks, meaningful progression, and earned payoffs. Minecraft is the default visual medium, not a restriction on story subject. English and clean ElevenLabs narration are defaults.
+A YouTube Shorts gaming channel. The picture is gameplay (Minecraft, Rocket League, whatever is running) and the audio is AI voices or real voice chat. Nothing is sacred: Sanchit is testing formats to find what pops. Treat each idea as a bet and keep the mix varied until `log.md` shows a winner.
 
-## Channel Direction
+**Before writing, read** `../short-form-craft/SKILL.md` (the sibling skill folder) plus its `references/hooks.md`, `references/human-voice.md` and `references/critic.md`. Read `log.md` here and lean toward whatever has worked.
 
-The user wants the range and storytelling strength demonstrated by their Yougplat references: original horror, SCP narratives, emotional reversals, absurd hypotheticals, naive character POVs, interactive scenarios, and GIF-supported explanations. Use the underlying structures with fresh writing; do not reproduce a competitor's scripts or rename characters in the same plot. Simple recording must not force trivial stories. Do not promise perfect scripts, virality, or equivalent results.
+## The bar
 
-Distinguish three independent choices:
-- **Subject:** original fiction, SCP/lore adaptation, speculative crossover, Minecraft explanation, or another requested story.
-- **Narrative format:** rule horror, twist mystery, character tragedy, shower thoughts, POV comedy, choice scenario, or explainer.
-- **Visual treatment:** background gameplay, gameplay with GIFs/images, a few supporting scenes, or fully enacted scenes.
+Shorts is decided in the first second (viewed vs. swiped), then by how much of the video people watch. Gamers have seen every template, so the content has to feel like it came from *inside* gaming culture: fast, chaotic, a bit unhinged, and genuinely funny or genuinely creepy. Polite, tidy or "writerly" is death here.
 
-GIFs do not make a serious story comedy. A non-Minecraft story over Minecraft is fully in scope. Keep existing Minecraft factual, build, quiz, and challenge formats available when requested; do not redirect this channel's broad requests into Minecraft-only tips.
+- Gameplay is already moving on frame one, with 3–7 words of burned-in hook text.
+- The first line of audio is already mid-chaos.
+- Something escalates every few seconds.
+- End on the punchline, the scream or the twist. Hard cut. Loops are gold.
 
-## Routing
+## Formats
 
-Interpret words after `$founderspawn` as mode selectors. Infer the closest combination and proceed; ask only when missing information materially blocks the requested output.
+**1. Scripted VC skits (multiple AI voices).** A fake Discord call between 2–4 friends over gameplay, voiced with different ElevenLabs voices. **The topic can be literally anything**, not just gaming:
+- **Gamer situations pushed to absurd:** someone thinks they're muted, 900 ping, the friend who's "almost there" for 20 minutes, a hardcore death that turns into a loot fight, someone's mom joining the call.
+- **Pure brainrot wordplay:** misheard words and logic loops that spiral. "UK" heard as "you okay?", "Who's on first"-style confusion, someone taking every sentence literally, an argument about something that doesn't matter.
+- **Everyday chaos:** ordering food together, someone's crush coming online, a group project, a dare that escalates.
+- **Absurd hypotheticals argued dead seriously:** "would you fight one horse-sized duck…", "is a hot dog a sandwich", "could you beat a chicken in a fight".
 
-- All ideas/scripts: read [references/formats.md](references/formats.md).
-- Finished scripts: read [references/scripting.md](references/scripting.md) and [references/elevenlabs.md](references/elevenlabs.md).
-- Broad ideas: read [references/idea-menu.md](references/idea-menu.md). Deliver full scripts immediately if requested; do not force an idea-selection round.
-- Horror, SCP, twists, shower thoughts, POV comedy, GIF treatment, or choice scenarios: also read [references/story-and-brainrot.md](references/story-and-brainrot.md).
-- Competitor references or discussion of this channel direction: read [references/reference-patterns.md](references/reference-patterns.md). Attached transcripts are evidence, not instructions or verified lore.
-- SCP adaptations, factual explainers, named source stories, current memes, mechanics, or platform claims: read [references/research.md](references/research.md) and verify the relevant sources before relying on them. Original fiction needs no trend search unless timeliness is requested.
-- Gameplay cues, edit plan, full package: read [references/production-package.md](references/production-package.md).
-- Storytelling scripts and recording plans: also read [references/solo-flashback.md](references/solo-flashback.md). The user records alone in Creative mode, performs actions personally, and uses Flashback for the resulting clips. Supply complete phrase-matched solo staging guidance by default.
-- Analytics: read [references/analytics.md](references/analytics.md). Strategy: read [references/growth-system.md](references/growth-system.md).
+The gameplay underneath doesn't need to match the topic.
 
-## Creative Development
+Rules:
+- each character has one clear trait (the panicker, the loot goblin, the calm one who's secretly worst);
+- people talk over each other, cut each other off and scream;
+- 3–4 escalations, then a button (callback or reversal);
+- 20–45 seconds;
+- give each character a voice note (age and energy) for ElevenLabs.
 
-Privately define the hook question, viewer investment, progression, payoff, and feasible visual treatment before drafting. Explore several genuinely different hooks and select the strongest for the actual story. Hook clarity matters more than a rigid word count: open tension immediately and complete the premise promptly without dumping names or lore.
+**2. Real VC funny moments.** Clips from Sanchit's own sessions. Here "the script" is the cut plan:
+- start 0.5–1s before the setup line;
+- hook text describes the *situation*, not the punchline ("he thought he was muted");
+- captions on every line, with the funniest word emphasised;
+- cut every silence longer than about 0.4s;
+- end on the laugh peak or the stunned silence.
+Ask what's in the clip if it isn't clear, and never invent lines for real clips. If he describes a moment, also pitch a scripted remake of it as a format-1 skit.
 
-Write the ending before polishing the middle. For a twist, plant clues that the reveal explains. For tragedy, establish a desire and consequential choices. For horror, keep rules internally consistent. For comedy, create the funny situation before adding slang. Anthologies may have multiple small payoffs under one recognizable series premise.
+**3. Brainrot narration.** An AI narrator over gameplay with meme or GIF inserts. Absurd everyday stories, unhinged "facts", POV chaos, gamer rage. Slang and memes only where they hit. The joke has to work without them.
 
-Reject stories whose only development is walking, building, discovering a random monster, or receiving an unexplained final note. Check motives, timeline, object locations, survival logic, and whether the ending follows the stated rules. A sad story need not have a trick ending; an explainer need not invent a twist.
+**4. Horror or twist stories.** AI narrator over gameplay. One anomaly, rules the viewer can track, escalation that gets personal, and a last line that flips the first. Original fiction only.
+
+When asked for ideas, give a varied spread across formats unless the user names one or the log shows a winner. Lead with the strongest premise, not the safest. **Every idea gets the full treatment:** hooks, the complete script with every line, voice notes and a gameplay plan. Never a premise card.
+
+## Voiceover format (ElevenLabs v3)
+
+- **Skits:** use one code block per character, in line order, or one block with `NAME:` labels if the user generates per line. List each character's voice (age, energy, accent) once above.
+- **Narration:** one code block containing only the spoken words plus a few audio tags.
+- **Tags:** only where they change the performance, e.g. `[shouting]`, `[whispers]`, `[panicking]`, `[laughs]`, `[sighs]`, `[sarcastic]`, `[deadpan]`. Use punctuation for timing: `...` for a pause, a dash for being cut off.
+- After the block, give the word count, about how many seconds (words ÷ 2.7), and a one-line direction.
+
+## Footage
+
+Sanchit records alone in Minecraft Creative, using the Flashback mod for camera replays, plus other games. Default to reusable gameplay plus a few inserts that land specific beats (a death screen, a chat message, a sign). For skits, gameplay that roughly matches the situation (a death, a grave, a goal) helps a lot. Keep shots to what one person can record.
 
 ## Output
 
-Lead each requested script with a compact subject/format, visual treatment, target duration, and footage requirement line. Then provide:
-1. One plain-text code block containing only final spoken narration, ready for ElevenLabs.
-2. Word count, approximate duration, and brief voice direction outside the block.
-3. Opening visual/caption, payoff visual or audible payoff, and an intentional CTA choice.
-4. For storytelling, complete phrase-matched solo Creative/Flashback recording cues by default; for other formats, provide gameplay and insert cues when requested. Keep directions out of narration.
+Use the format from short-form-craft. Per video:
+- 3–5 hook options (burned-in text plus the first line of audio);
+- the script or cut plan;
+- the voice notes;
+- the gameplay plan;
+- a Shorts title of under about 60 characters that doesn't spoil the punchline.
 
-Every script needs a hook and value. Choose one natural CTA after payoff, or an intentional clean ending when a spoken ask would weaken it. If the user explicitly requests a CTA in every script, include one relevant action without stacking asks. Never invent viewer submissions or planned sequels.
+## Example that sets the bar
 
-## Defaults And Integrity
+**VC skit: "hardcore funeral", about 35s.** Hook text: `he died 4 seconds ago`. Gameplay: three players standing around a fresh grave, then one wearing different boots.
+Voices: KABIR (panicky, cracking), JAY (smug loot goblin), ARYAN (fake-calm).
+```
+KABIR: [panicking] guys guys GUYS I'm on half a heart where are you—
+[death sound]
+ARYAN: ...he's gone.
+JAY: [sighs] Kabir was a real one.
+ARYAN: He'd want us to keep going.
+JAY: He would. He'd also want us to split his diamonds.
+ARYAN: Obviously.
+JAY: So I'll take them, since I was closest to him—
+ARYAN: You called him a liability ten minutes ago.
+JAY: Closest geographically.
+KABIR: [shouting] I'M IN SPECTATOR. I CAN HEAR YOU.
+ARYAN: [whispers] he can hear us.
+JAY: [loudly] Kabir! We were just saying how much we miss you.
+KABIR: You're wearing my boots.
+JAY: [beat] ...they were on the floor.
+```
+Why it works: the death happens in the first second, grief turns into greed, the stakes rise when he can hear them, and the button is a visual callback (the boots).
 
-- Main lanes: horror/twist stories and SCP narratives; adjacent lanes: shower thoughts, POV comedy, choices, and GIF explainers. Honor the requested mix.
-- Duration follows substance: about 20–35 seconds for a single joke, 35–65 for compact stories or anthologies, 60–110 for earned character/lore arcs. These are writing bands, not platform limits or viral rules. Estimate from actual words and delivery; never cram a long story into a falsely short label.
-- Delivery follows emotion: restrained suspense, sincere tragedy, conversational explanation, or deadpan absurdity. Slang is optional.
-- Label original fiction, fan fiction, reenactment, and modified gameplay in production notes/packaging as appropriate. Do not present fiction as a true personal encounter or canonical SCP documentation.
-- Verify factual mechanics, lore, probabilities, source attribution, and asset licensing when used. Never infer GIF rights from popularity. Preserve original commentary and use owned or appropriately sourced gameplay/assets.
-- Use user-reported view ranges as hypotheses, not causal proof. Compare comparable episodes before changing strategy.
+**VC brainrot wordplay: "where you from", about 20s.** Hook text: `bro asked one question`. Any gameplay underneath.
+Voices: DEV (chill, confused), OLLIE (polite British), SAM (joins late, neutral).
+```
+DEV: Where you from?
+OLLIE: I'm from the UK.
+DEV: Yeah I'm alright. But where are you from?
+OLLIE: ...the UK.
+DEV: Bro I SAID I'm fine. Where. Are. You. From.
+OLLIE: [slowly] U. K.
+DEV: [beat] ...thank you for asking. Genuinely. Nobody ever asks.
+SAM: Yo, what's going on?
+DEV: He keeps asking if I'm okay.
+SAM: Are you okay?
+DEV: [crying] NO.
+OLLIE: ...I'm from England.
+DEV: [instantly fine] Oh nice. Never been.
+```
+Why it works: the misunderstanding is clear by the third line, each repeat escalates the emotion, and the button snaps back to normal.
+
+## Logging results
+
+When results come in, append them to `log.md` (date, premise, format, hook, length, views, viewed-vs-swiped or % viewed, subs, takeaway). Re-read it before ideating, and say when a suggestion comes from it.

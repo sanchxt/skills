@@ -1,6 +1,6 @@
 ---
 name: twitter-opportunity-finder
-description: Find fresh X/Twitter posts, replies, and high-engagement conversations where real users are describing pain points that a product, website, SaaS, app, agency, service, newsletter, or project can help with. Use when Codex is asked to find Twitter/X leads, customer conversations, popular tweets to study, reply opportunities, search operators, demand-capture opportunities, outreach angles, or compliant ways to market a product on X. Prioritize recent and active posts/replies, use X Advanced Search and search-bar operators, and never post, DM, like, repost, follow, or otherwise interact unless explicitly authorized.
+description: Find fresh X/Twitter posts, replies, and high-engagement conversations where real users are describing pain points that a product, website, SaaS, app, agency, service, newsletter, or project can help with. Use when Claude Code is asked to find Twitter/X leads, customer conversations, popular tweets to study, reply opportunities, search operators, demand-capture opportunities, outreach angles, or compliant ways to market a product on X. Prioritize recent and active posts/replies, use X Advanced Search and search-bar operators, and never post, DM, like, repost, follow, or otherwise interact unless explicitly authorized.
 ---
 
 # Twitter Opportunity Finder
@@ -50,7 +50,7 @@ Find X/Twitter conversations where the user's product can be introduced later in
 
 6. Produce the deliverable:
    - For CSV-backed results, first run `scripts/normalize_twitter_leads.py` to dedupe, validate, and sort candidates.
-   - Then run the persistent lead memory filter before presenting results, using `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py filter --platform twitter --product "<product or campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`.
+   - Then run the persistent lead memory filter before presenting results, using `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py filter --platform twitter --product "<product or campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`.
    - Present only fresh leads from `<fresh.csv>` by default.
    - Include the skipped-repeat summary printed by the memory filter, for example: "Skipped 12 previously seen leads: 7 found, 3 ignored, 2 replied."
    - Return a Markdown table by default.
@@ -59,13 +59,13 @@ Find X/Twitter conversations where the user's product can be introduced later in
 
 ## Persistent Lead Memory
 
-Use `C:\Users\tpbea\.codex\lead_memory\lead_memory.py` to avoid recommending the same X/Twitter post or reply again for the same product/campaign across future Codex chats.
+Use `C:\Users\Sanchit\.claude\lead_memory\lead_memory.py` to avoid recommending the same X/Twitter post or reply again for the same product/campaign across future Claude Code sessions.
 
-- Initialize the database if needed with `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py init`.
-- The default database is `C:\Users\tpbea\.codex\lead_memory\leads.sqlite3`.
+- Initialize the database if needed with `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py init`.
+- The default database is `C:\Users\Sanchit\.claude\lead_memory\leads.sqlite3`.
 - Memory is product-aware: the same URL can be fresh for one product and previously seen for another.
 - Hide previously seen leads by default. Keep repeat details in the repeats CSV and mention only the summary in the user-facing answer.
-- When the user says they replied to, shortlisted, ignored, or avoided an X/Twitter lead, record it with `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py mark --platform twitter --product "<product or campaign>" --url "<url>" --status replied|shortlisted|ignored|avoided --note "<optional note>"`.
+- When the user says they replied to, shortlisted, ignored, or avoided an X/Twitter lead, record it with `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py mark --platform twitter --product "<product or campaign>" --url "<url>" --status replied|shortlisted|ignored|avoided --note "<optional note>"`.
 - Do not infer that the user replied unless they explicitly say so. Leads shown to the user are recorded as `found`; later outreach actions require a `mark` update.
 
 ## X Search Mechanics

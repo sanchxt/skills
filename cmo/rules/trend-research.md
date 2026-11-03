@@ -22,7 +22,7 @@ Before starting research, ask the user:
 
 ## Research Methodology
 
-Research trends from ALL four angles. Use Codex web search, page fetching/opening, and Chrome DevTools MCP aggressively when current information matters.
+Research trends from ALL four angles. Use web search, page fetching/opening, and Chrome DevTools MCP aggressively when current information matters.
 
 ### 1. Broad Industry & Platform Trends
 

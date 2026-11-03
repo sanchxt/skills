@@ -1,6 +1,6 @@
 ---
 name: reddit-opportunity-finder
-description: Find fresh Reddit posts and comments where real users are describing pain points that a product, website, SaaS, app, agency, service, newsletter, or project can help with. Use when Codex is asked to find Reddit leads, demand-capture opportunities, customer conversations, posts to reply to, comment links for promotion, subreddits where prospects are active, or outreach angles for a user-provided product summary. Prioritize recent and active posts/comments, respect subreddit rules, and never post, DM, vote, or interact unless the user explicitly asks.
+description: Find fresh Reddit posts and comments where real users are describing pain points that a product, website, SaaS, app, agency, service, newsletter, or project can help with. Use when Claude Code is asked to find Reddit leads, demand-capture opportunities, customer conversations, posts to reply to, comment links for promotion, subreddits where prospects are active, or outreach angles for a user-provided product summary. Prioritize recent and active posts/comments, respect subreddit rules, and never post, DM, vote, or interact unless the user explicitly asks.
 ---
 
 # Reddit Opportunity Finder
@@ -50,7 +50,7 @@ Find Reddit conversations where the user's product can be introduced later in a 
 
 6. Produce the deliverable:
    - For CSV-backed results, first run `scripts/normalize_reddit_leads.py` to dedupe, validate, and sort candidates.
-   - Then run the persistent lead memory filter before presenting results, using `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py filter --platform reddit --product "<product or campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`.
+   - Then run the persistent lead memory filter before presenting results, using `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py filter --platform reddit --product "<product or campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`.
    - Present only fresh leads from `<fresh.csv>` by default.
    - Include the skipped-repeat summary printed by the memory filter, for example: "Skipped 12 previously seen leads: 7 found, 3 ignored, 2 replied."
    - Return a Markdown table by default.
@@ -59,13 +59,13 @@ Find Reddit conversations where the user's product can be introduced later in a 
 
 ## Persistent Lead Memory
 
-Use `C:\Users\tpbea\.codex\lead_memory\lead_memory.py` to avoid recommending the same Reddit post or comment again for the same product/campaign across future Codex chats.
+Use `C:\Users\Sanchit\.claude\lead_memory\lead_memory.py` to avoid recommending the same Reddit post or comment again for the same product/campaign across future Claude Code sessions.
 
-- Initialize the database if needed with `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py init`.
-- The default database is `C:\Users\tpbea\.codex\lead_memory\leads.sqlite3`.
+- Initialize the database if needed with `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py init`.
+- The default database is `C:\Users\Sanchit\.claude\lead_memory\leads.sqlite3`.
 - Memory is product-aware: the same URL can be fresh for one product and previously seen for another.
 - Hide previously seen leads by default. Keep repeat details in the repeats CSV and mention only the summary in the user-facing answer.
-- When the user says they commented on, shortlisted, ignored, or avoided a Reddit lead, record it with `python C:\Users\tpbea\.codex\lead_memory\lead_memory.py mark --platform reddit --product "<product or campaign>" --url "<url>" --status commented|shortlisted|ignored|avoided --note "<optional note>"`.
+- When the user says they commented on, shortlisted, ignored, or avoided a Reddit lead, record it with `python C:\Users\Sanchit\.claude\lead_memory\lead_memory.py mark --platform reddit --product "<product or campaign>" --url "<url>" --status commented|shortlisted|ignored|avoided --note "<optional note>"`.
 - Do not infer that the user commented unless they explicitly say so. Leads shown to the user are recorded as `found`; later outreach actions require a `mark` update.
 
 ## Freshness Policy

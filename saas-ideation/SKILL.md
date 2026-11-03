@@ -32,7 +32,7 @@ Use this skill to find and evaluate realistic, solo-buildable software products 
 3. Search deeply and currently.
    - Gather evidence for demand, pain intensity, willingness to pay, competition, pricing, platform/channel fit, and recent trend movement.
    - Use multiple source types per finalist idea. Do not rely on a single article or generic market-size claim.
-   - When subagents are permitted by the active Codex tool policy and the user has allowed parallel/delegated work, use them for independent research lanes such as competitor pricing, community pain mining, keyword/trend analysis, and marketplace/app-store scans.
+   - When subagents are permitted by the current permission mode and the user has allowed parallel/delegated work, use them for independent research lanes such as competitor pricing, community pain mining, keyword/trend analysis, and marketplace/app-store scans.
    - Use Chrome or browser automation when a source requires interaction, login state, screenshots, marketplace filtering, or rendered-page inspection.
 
 4. Separate evidence from inference.

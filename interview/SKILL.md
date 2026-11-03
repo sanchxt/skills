@@ -1,6 +1,6 @@
 ---
 name: interview
-description: Ask the user clarifying questions freely and persistently before or during work. Use when the user invokes /interview or $interview, asks Codex to ask questions, requests collaborative requirement gathering, or wants Codex to clarify tradeoffs, UI/UX, plans, implementation details, status, assumptions, constraints, or requirements until enough information is available.
+description: Ask the user clarifying questions freely and persistently before or during work. Use when the user invokes /interview, asks Claude Code to ask questions, requests collaborative requirement gathering, or wants Claude Code to clarify tradeoffs, UI/UX, plans, implementation details, status, assumptions, constraints, or requirements until enough information is available.
 ---
 
 # Interview

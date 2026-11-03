@@ -1,6 +1,6 @@
 ---
 name: instagram-opportunity-finder
-description: Find Instagram accounts for compliant outreach from a user's brand, agency, creator, founder, or personal account. Use when Codex is asked to discover Instagram prospects, audit brand or creator profiles, inspect bio links or websites, identify content/business/marketing gaps, draft tailored DM/comment/email outreach, track outreach status, or build a persistent SQLite database of Instagram accounts for a product, service, agency, newsletter, SaaS, creator offer, or founder-led sales motion.
+description: Find Instagram accounts for compliant outreach from a user's brand, agency, creator, founder, or personal account. Use when Claude Code is asked to discover Instagram prospects, audit brand or creator profiles, inspect bio links or websites, identify content/business/marketing gaps, draft tailored DM/comment/email outreach, track outreach status, or build a persistent SQLite database of Instagram accounts for a product, service, agency, newsletter, SaaS, creator offer, or founder-led sales motion.
 ---
 
 # Instagram Opportunity Finder
@@ -55,7 +55,7 @@ Find public Instagram accounts that may be good-fit prospects for the user's pro
 7. Store and filter results:
    - For CSV-backed results, first run `scripts/normalize_instagram_leads.py` to normalize usernames, dedupe accounts, validate fields, and sort candidates.
    - Then filter through the persistent Instagram database:
-     `python C:\Users\tpbea\.codex\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py filter --campaign "<campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`
+     `python C:\Users\Sanchit\.claude\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py filter --campaign "<campaign>" --input <normalized.csv> --fresh-output <fresh.csv> --repeats-output <repeats.csv> --record-found`
    - Present only fresh accounts from `<fresh.csv>` by default.
    - Include the skipped-repeat summary printed by the memory filter, for example: "Skipped 8 previously seen Instagram accounts: 5 found, 2 ignored, 1 contacted."
    - Save large CSV/Markdown deliverables in the workspace `outputs/` directory when requested or too large for chat.
@@ -65,13 +65,13 @@ Find public Instagram accounts that may be good-fit prospects for the user's pro
 Use `scripts/instagram_lead_memory.py` for a separate SQLite database dedicated to Instagram outreach.
 
 - Initialize with:
-  `python C:\Users\tpbea\.codex\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py init`
+  `python C:\Users\Sanchit\.claude\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py init`
 - Default database:
-  `C:\Users\tpbea\.codex\instagram_lead_memory\instagram_leads.sqlite3`
+  `C:\Users\Sanchit\.claude\instagram_lead_memory\instagram_leads.sqlite3`
 - Campaign-aware uniqueness: the same username can be fresh for one campaign and previously seen for another.
 - Leads shown to the user are recorded as `found` only when `--record-found` is used.
 - When the user says they contacted, shortlisted, ignored, avoided, or received a reply from an account, record it:
-  `python C:\Users\tpbea\.codex\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py mark --campaign "<campaign>" --username "<username>" --status contacted|replied|shortlisted|ignored|avoided|not-fit --note "<optional note>"`
+  `python C:\Users\Sanchit\.claude\skills\instagram-opportunity-finder\scripts\instagram_lead_memory.py mark --campaign "<campaign>" --username "<username>" --status contacted|replied|shortlisted|ignored|avoided|not-fit --note "<optional note>"`
 - Do not infer contact. Only mark `contacted` or `replied` when the user explicitly says it happened.
 
 ## Output Fields
