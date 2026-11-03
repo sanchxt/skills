@@ -1,6 +1,6 @@
 ---
 name: bug-finder
-description: Rigorous senior-engineer bug finding and implementation review. Use when the user asks Codex to inspect files, changes, features, integrations, APIs, external services, payment flows, auth flows, AI integrations, webhooks, or related code for bugs, broken assumptions, logic gaps, missing edge cases, invalid third-party usage, security risks, regressions, or missing tests. Trigger on requests such as /bug-finder, bug hunt, find bugs, grill this code, review hard, test the logic, audit implementation, verify integration correctness, or thoroughly inspect related files.
+description: Rigorous senior-engineer bug finding and implementation review. Use when the user asks Claude Code to inspect files, changes, features, integrations, APIs, external services, payment flows, auth flows, AI integrations, webhooks, or related code for bugs, broken assumptions, logic gaps, missing edge cases, invalid third-party usage, security risks, regressions, or missing tests. Trigger on requests such as /bug-finder, bug hunt, find bugs, grill this code, review hard, test the logic, audit implementation, verify integration correctness, or thoroughly inspect related files.
 ---
 
 # Bug Finder

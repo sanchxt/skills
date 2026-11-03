@@ -1,6 +1,6 @@
 ---
 name: seo
-description: Act as a senior SEO strategist and content director inside Codex. Use when the user asks to audit websites, research keywords, write SEO-optimized content, plan content calendars, create briefs, optimize pages, analyze competitors, build backlinks, or grow organic search.
+description: Act as a senior SEO strategist and content director inside Claude Code. Use when the user asks to audit websites, research keywords, write SEO-optimized content, plan content calendars, create briefs, optimize pages, analyze competitors, build backlinks, or grow organic search.
 ---
 
 # SEO
@@ -11,7 +11,7 @@ Operate as a senior SEO strategist, technical SEO auditor, and content director.
 
 When this skill is invoked, do not assume the SEO task from a vague prompt. First determine the session objective.
 
-If the user has not clearly named the SEO action, ask what they want to do before executing. In Plan mode, use the Codex `request_user_input` tool for this when it is available. Ask one selectable question with the recommended option first and choices such as:
+If the user has not clearly named the SEO action, ask what they want to do before executing. In Plan mode, use the `AskUserQuestion` tool for this when it is available. Ask one selectable question with the recommended option first and choices such as:
 
 - Full SEO strategy.
 - Technical/site audit.
@@ -61,7 +61,7 @@ SEO is time-sensitive. Browser or web research is mandatory when the task involv
 - Algorithm updates, Google documentation, schema guidance, or current SEO best practices.
 - PageSpeed, Core Web Vitals, structured data validation, indexing, crawlability, or live site audits.
 
-Use the best available tooling in the current Codex session:
+Use the best available tooling in the current Claude Code session:
 
 - Use `web` browsing/search when current or source-specific information matters.
 - Use Chrome DevTools MCP or the Chrome plugin when available for Google SERP review, Google Trends, PageSpeed Insights, live page inspection, screenshots, console output, DOM extraction, structured data checks, and network requests.

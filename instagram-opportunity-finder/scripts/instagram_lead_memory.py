@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-DEFAULT_DB = Path(os.environ.get("INSTAGRAM_LEAD_MEMORY_DB", Path.home() / ".codex" / "instagram_lead_memory" / "instagram_leads.sqlite3"))
+DEFAULT_DB = Path(os.environ.get("INSTAGRAM_LEAD_MEMORY_DB", Path.home() / ".claude" / "instagram_lead_memory" / "instagram_leads.sqlite3"))
 
 FIELDNAMES = [
     "username",

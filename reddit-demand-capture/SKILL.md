@@ -1,6 +1,6 @@
 ---
 name: reddit-demand-capture
-description: Research Reddit for customer-acquisition and market-demand opportunities around a product, startup, website, agency, app, SaaS, service, or company. Use when Codex needs to find relevant subreddits, inspect subreddit rules, search recent and active Reddit posts or comment threads, identify compliant opportunities to join the conversation, draft transparent high-value comments or posts, maintain a persistent Reddit research cache, or prepare human-reviewed Reddit outreach without repeating the same research every session.
+description: Research Reddit for customer-acquisition and market-demand opportunities around a product, startup, website, agency, app, SaaS, service, or company. Use when Claude Code needs to find relevant subreddits, inspect subreddit rules, search recent and active Reddit posts or comment threads, identify compliant opportunities to join the conversation, draft transparent high-value comments or posts, maintain a persistent Reddit research cache, or prepare human-reviewed Reddit outreach without repeating the same research every session.
 ---
 
 # Reddit Demand Capture
