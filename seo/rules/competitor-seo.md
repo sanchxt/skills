@@ -10,6 +10,8 @@ Identify which domains currently win the SERPs we care about, why they win, wher
 2. Read `.seo/keywords/master-list.md` if present.
 3. Check existing `.seo/competitors/`.
 4. If SEO competitors are unknown, identify them from current SERPs, not only business intuition.
+5. Also identify **AI-answer competitors**: the brands and domains that ChatGPT, Perplexity, Gemini and Google AI Overviews cite or recommend for the prompt panel ([geo-ai-search.md](geo-ai-search.md)). They are often directories, listicles, Reddit threads or review sites rather than direct rivals, and they're where to get mentioned.
+6. Competitor files older than 30 days are stale. Re-check live pages, not cached memory.
 
 ## Research Workflow
 

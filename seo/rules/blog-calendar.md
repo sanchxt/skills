@@ -11,6 +11,10 @@ Plan a calendar that builds topical authority and captures high-intent search de
 3. Read `.seo/competitors/` and `.seo/insights.md` if present.
 4. Check existing `.seo/content/calendar-*.md` for continuity.
 5. If keyword research is missing or stale, perform or refresh keyword research first.
+6. Pull Search Console first: refreshes of pages at positions 5-20 and fixes for "crawled - currently not indexed" posts usually beat new posts. A young site with many unindexed posts should publish fewer, better pieces until indexing improves.
+7. Never plan more posts on an intent the site already covers; plan a refresh or merge instead.
+
+Volume is not the goal. A steady 1-3 genuinely useful, well-linked posts a week tied to what the business sells beats 7+ generic posts a week, which tends to end up "crawled - currently not indexed".
 
 ## Planning Rules
 

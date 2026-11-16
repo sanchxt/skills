@@ -2,160 +2,89 @@
 
 ## Purpose
 
-Research, classify, cluster, and prioritize keywords using current search behavior. The output must identify terms that can realistically rank and drive business outcomes, not just a long keyword list.
+Find the searches and AI prompts that real buyers use right now, classify them (short-tail, long-tail, questions, commercial, local, conversational), cluster them by intent, and decide which page should own each cluster. The output is a prioritised map of pages, not a long list of words.
 
-## Before Starting
+## Before starting
 
-1. Read `.seo/project-profile.md` for niche, geography, audience, competitors, seed topics, and goals.
-2. Read `.seo/keywords/master-list.md` and relevant cluster files if they exist.
-3. Treat keyword research older than 30 days as stale for active campaigns.
-4. Use `.growth/brand-profile.md` when available for audience language and positioning.
-5. Ask for missing target geography, product/service focus, and conversion goal if absent.
+1. Read `.seo/project-profile.md`. Confirm the current offer, audience and geography against the live site. If the business has repositioned, old keyword files are history, not input.
+2. Read `.seo/keywords/master-list.md` and check its date. Older than 30 days, or older than the last redesign: refresh it.
+3. Pull fresh Search Console queries (last 3 and 16 months) before anything else ([search-console.md](search-console.md)). They show what Google already associates with the site.
 
-## Mandatory Current Research
+## Sources, in order of trust
 
-Do not invent keyword demand. Use current research sources available in the session:
+Record every source and date in `.seo/keywords/research-YYYY-MM-DD.md`.
 
-- Google SERPs through Chrome DevTools MCP, Chrome plugin, browser automation, or web browsing.
-- Google Autocomplete, People Also Ask, Related Searches, and SERP features.
-- Google Trends at `trends.google.com` for seasonality, geography, rising queries, and term comparisons.
-- Competitor pages and `site:` searches.
-- Public keyword lists, forums, Reddit, Quora, YouTube suggestions, marketplace/category pages, and industry glossaries where relevant.
-- User-provided Search Console, Analytics, Ahrefs, Semrush, Moz, Screaming Frog, or CSV exports when available.
+1. **The site's own Search Console queries:** real demand with real positions. Mine striking-distance queries (position 5-20), conversational questions and unexpected topics.
+2. **Live Google results (Chrome DevTools MCP):** search each seed in a fresh tab with the target country and language (`https://www.google.com/search?q=...&gl=in&hl=en`). Capture: page types ranking, who ranks, AI Overview present and which sources it cites, People Also Ask (expand a few to load more), "People also search for", related searches, local pack, video/forum results.
+3. **Google Autocomplete:** [../scripts/autocomplete.mjs](../scripts/autocomplete.mjs) expands seeds with a-z, question words and modifiers through Google's public suggest endpoint (set `gl`/`hl`). Fast and current. Long seeds often return nothing; use 2-3 word seeds with `--deep`.
+4. **Google Trends (`trends.google.com`, via Chrome):** compare 2-5 phrasings in the target geography over 12 months and 5 years; read Rising related queries; note seasonality. Use it to choose wording ("AI chatbot" vs "AI agent" vs "AI assistant") and to spot rising topics.
+5. **AI engines as research tools:** ask ChatGPT / Perplexity / Gemini how a buyer would phrase the problem, what they'd compare, and which brands they'd recommend. Treat this as phrasing ideas and a competitor list, not volume data.
+6. **Communities:** Reddit, Quora, niche forums, YouTube comments, LinkedIn posts. Search `site:reddit.com {topic}` on Google, and the sites themselves. Copy real phrasing, objections and price questions.
+7. **Competitors:** their service pages, blog categories, titles and FAQs (see [competitor-seo.md](competitor-seo.md)).
+8. **Paid tools, if the user has them** (Ahrefs, Semrush, Google Keyword Planner via the user's Ads account, Bing Keyword Research in Bing WMT): use them for volume and difficulty. If you're working in the user's signed-in browser, use what's there; never sign up or enter payment details.
 
-When paid metric data is unavailable, use ranges and labels:
+Without a paid tool, estimate and label:
 
-- **Estimated volume:** very low, low, medium, high, very high.
-- **Difficulty:** easy, moderate, hard, very hard.
-- **Evidence:** SERP quality, domain strength of ranking pages, freshness, content depth, forum presence, weak pages ranking, local pack, ads, and SERP volatility.
+- **Demand:** very low / low / medium / high, from autocomplete presence, Trends interest, GSC impressions, PAA density, ads on the SERP.
+- **Difficulty:** easy / moderate / hard / very hard, from who ranks (forums and small sites = easier; big brands, directories, marketplaces = harder), content quality and freshness, and SERP features crowding the page.
+- **Evidence:** one line on why.
 
-## Keyword Types To Capture
+Never present a guessed number as a measured search volume.
 
-Every serious keyword set must include:
+## Keyword types to cover
 
-- **Short-tail keywords:** broad head terms, usually high volume and high difficulty.
-- **Long-tail keywords:** specific queries with clearer intent and easier ranking paths.
-- **Question keywords:** People Also Ask and natural-language queries.
-- **Commercial investigation keywords:** "best", "top", "reviews", "vs", "alternatives", "pricing", "comparison".
-- **Transactional keywords:** "buy", "book", "hire", "near me", "service", "consultant", "software", "tool", "demo".
-- **Local keywords:** city, region, "near me", and service-area modifiers when relevant.
-- **Problem-aware keywords:** symptoms, pains, use cases, mistakes, templates, checklists.
-- **Competitor/alternative keywords:** only when ethically and legally appropriate.
+- **Short-tail / head terms:** broad, high demand, hard ("AI automation agency"). Usually targeted by the home or pillar pages, for the long term.
+- **Long-tail:** specific, clearer intent, easier ("WhatsApp AI chatbot for clinics in India"). Usually the fastest wins.
+- **Question keywords:** PAA, "how / what / why / is / can / should". Feed FAQs, H2s and answer-first sections.
+- **Conversational / AI-prompt queries:** full-sentence asks, the way people talk to ChatGPT or AI Mode ("what's the cheapest way to automate appointment reminders for my salon?"). Often visible in GSC as long queries. Target with answer-first sections and the GEO prompt panel.
+- **Commercial investigation:** best, top, vs, alternatives, reviews, pricing, cost, comparison.
+- **Transactional:** hire, agency, company, services, near me, quote, consultant.
+- **Local:** city, region, "near me", when the business serves a location.
+- **Problem-aware:** symptoms and pains ("missed calls losing customers", "too much manual data entry").
+- **Brand and competitor:** brand plus misspellings; competitor alternatives, only where fair and accurate.
 
-## Research Workflow
+## Workflow
 
-### 1. Seed Expansion
-
-Start with the user's seed topics and expand with:
-
-- Autocomplete variants: `{seed} a-z`, `best {seed}`, `{seed} for {audience}`, `{seed} vs`, `how to {seed}`, `what is {seed}`, `{seed} cost`, `{seed} near me`.
-- PAA questions from multiple seed SERPs.
-- Related Searches from Google.
-- Competitor blog/category/page titles.
-- Forums and community language.
-- Google Trends related topics and rising queries.
-
-### 2. SERP Intent Validation
-
-For every priority keyword, review the current SERP. Record:
-
-- Dominant content type: landing page, product page, category page, blog post, guide, listicle, comparison, local pack, video, tool, forum thread.
-- Dominant intent: informational, navigational, commercial investigation, transactional, local, mixed.
-- SERP features: featured snippet, PAA, local pack, shopping, video, image pack, AI/overview features if visible, forums.
-- Ranking page quality and freshness.
-- Whether the keyword should target a new page, existing page, brief, article, product/category page, or local page.
-
-If the SERP intent conflicts with the user's assumed content type, say so and recommend the page type that matches the SERP.
-
-### 3. Google Trends Review
-
-Use Trends when comparing terms, choosing terminology, checking seasonality, or validating "current active keywords":
-
-- Compare 2-5 close keyword variants.
-- Set the correct geography and timeframe.
-- Note rising vs declining terms.
-- Capture seasonal peaks and publishing lead time.
-- Use related queries/topics to find emerging long-tail opportunities.
-
-### 4. Clustering
-
-Cluster by shared intent and SERP overlap, not by superficial wording. One page should target one intent cluster.
-
-For each cluster, identify:
-
-- Pillar keyword.
-- Supporting long-tail keywords.
-- High-intent terms.
-- PAA/question set.
-- Required page type.
-- Existing URL or planned URL.
-- Internal links to and from related pages.
-
-### 5. Prioritization
-
-Score each keyword or cluster:
+1. **Seeds:** from the offer (each service, the problems it fixes, the industries served), GSC queries, and competitors.
+2. **Expand:** autocomplete, PAA, related searches, Trends rising queries, communities.
+3. **Validate intent on the live SERP** for every candidate priority term: what page type ranks, whether an AI Overview answers it outright (informational queries with full AI answers send fewer clicks, so favour terms where buyers still click: commercial, local, tool or provider choices), and whether the business can credibly produce the best page.
+4. **Cluster by SERP overlap:** if two keywords show mostly the same top results, they belong on one page. One page per intent cluster.
+5. **Map to pages:** existing URL (refresh/optimise) or new page (service page, comparison, guide, tool, location page). Note cannibalisation.
+6. **Score and prioritise:**
 
 | Factor | Weight |
 |--------|--------|
-| Business relevance | 30% |
-| Conversion/high-intent potential | 25% |
-| Ranking opportunity | 20% |
-| Search demand/trend | 15% |
-| Content or technical readiness | 10% |
+| Business relevance (sells a current service) | 30% |
+| Conversion intent | 25% |
+| Ranking feasibility for this site today | 20% |
+| Demand and trend direction | 15% |
+| Effort / readiness | 10% |
 
-Priority labels:
+Labels: **Now** (high value, feasible, can ship soon) · **Next** (needs supporting content or authority) · **Later** (head terms, authority plays) · **Skip** (off-offer, weak intent, unwinnable).
 
-- **Now:** high business value, clear intent, plausible ranking path, can be executed soon.
-- **Next:** useful but needs supporting content, links, or site improvements.
-- **Later:** authority-building or difficult head terms.
-- **Skip:** weak intent, poor fit, too broad, misleading, or not commercially useful.
+## Output
 
-## Output Template
-
-Store the master output in `.seo/keywords/master-list.md`:
+`.seo/keywords/research-YYYY-MM-DD.md` (raw findings and sources) and an updated `.seo/keywords/master-list.md`:
 
 ```markdown
-# {Project Name} - Master Keyword Research
+# {Project} - Keyword Map
+**Last updated:** {date}  **Geography/language:** {geo}  **Sources:** {GSC, Google SERP (gl=..), Autocomplete, Trends, ...}
 
-**Last Updated:** {date}
-**Target Geography:** {geo}
-**Sources Used:** {Google SERP, Trends, competitor pages, exports, etc.}
+## Summary
+- Biggest opportunity: ...
+- Quick wins (striking distance / long-tail): ...
+- Long-term plays: ...
+- Dropped from previous research and why: ...
 
-## Executive Summary
-- **Highest-value opportunity:** {cluster/keyword}
-- **Fastest quick wins:** {keywords}
-- **Long-term authority plays:** {clusters}
-- **Terms to avoid:** {keywords and why}
+## Clusters
+### {Cluster} -> {target URL or new page type}
+- Intent: ...  Page type ranking now: ...  AI Overview: {yes/no, cites ...}
+| Keyword | Type | Intent | Demand (est.) | Difficulty | Evidence | Priority |
+|---------|------|--------|---------------|------------|----------|----------|
 
-## Priority Keywords
-| Keyword | Type | Intent | Est. Demand | Difficulty | Business Value | Priority | Target Page |
-|---------|------|--------|-------------|------------|----------------|----------|-------------|
-| {keyword} | {short-tail/long-tail/question/commercial/transactional/local} | {intent} | {range} | {level} | {1-5} | {Now/Next/Later/Skip} | {URL/new page} |
+## Question / prompt bank
+| Question or prompt | Source | Use (FAQ / H2 / new page / GEO panel) |
 
-## Topic Clusters
-### {Cluster Name}
-- **Pillar keyword:** {keyword}
-- **Intent:** {intent}
-- **Recommended page type:** {page type}
-- **Primary URL:** {existing/planned}
-- **Why this matters:** {business case}
-
-| Keyword | Type | Intent | Priority | Use |
-|---------|------|--------|----------|-----|
-| {keyword} | {type} | {intent} | {priority} | {H2/FAQ/article/page} |
-
-## People Also Ask / Question Bank
-| Question | Source Keyword | Intent | Recommended Use |
-|----------|----------------|--------|-----------------|
-| {question} | {keyword} | {intent} | {FAQ/H2/brief/article} |
-
-## Trends Notes
-| Compared Terms | Winner | Trend/Seasonality | Action |
-|----------------|--------|-------------------|--------|
-| {terms} | {term} | {note} | {recommendation} |
-
-## Competitor Gaps
-| Keyword/Topic | Competitor Ranking Page | Our Status | Action |
-|---------------|-------------------------|------------|--------|
-| {keyword} | {URL} | {missing/weak/existing} | {create/update/skip} |
+## Trends notes
+| Terms compared | Geo, period | Winner / direction | Decision |
 ```

@@ -11,10 +11,12 @@ Create SEO briefs and full articles that can rank, satisfy search intent, and co
 3. Read an existing `.seo/content/briefs/{slug}.md` when present.
 4. Read `.growth/brand-profile.md` and `.growth/voice-library.md` if available.
 5. If there is no brief, create one first or create it inline before drafting.
+6. Check the site doesn't already have a page for this intent (CMS list, `site:` search, GSC). If it does, refresh that URL instead of publishing a competing one.
+7. If the project has its own publishing skill or CLI (e.g. `eravue-blog`), follow its writing and image rules and publish through it.
 
 ## Mandatory SERP Analysis
 
-Before writing a brief or article, research the current SERP for the primary keyword and 2-5 close variants:
+Before writing a brief or article, research the live SERP (Chrome DevTools MCP, correct `gl`/`hl`) for the primary keyword and 2-5 close variants, and ask the same question in at least one AI engine (ChatGPT or Perplexity) to see which sources it cites:
 
 - Analyze top 5-10 ranking pages.
 - Identify the dominant content type and intent.
@@ -26,6 +28,16 @@ Before writing a brief or article, research the current SERP for the primary key
 - Decide the content angle that makes the piece better than what ranks now.
 
 If the SERP is mostly transactional or commercial landing pages, do not force a blog post. Recommend the matching page type.
+
+## Answer-First, Citable Writing (SEO + GEO)
+
+- Open with a 2-4 sentence direct answer to the main query, including the key number or verdict. Context comes after.
+- Phrase H2s as the questions people actually ask (from PAA, GSC and the prompt bank), and start each section with its answer.
+- Use specific, current facts: prices, timelines, tool names, dates, each with a source or "from our projects". Replace every stale statistic you find.
+- Add at least one thing only this business can provide: a real example, a screenshot, a mini case study, a price range from its own projects, or a decision framework from experience.
+- Use tables for comparisons and costs, and numbered steps for processes.
+- Name a real author with relevant experience; show the published and updated dates.
+- Write like a person who has done the work: plain words, no filler intros, no "in today's fast-paced world", no hype. If it sounds AI-generated, rewrite it.
 
 ## High-Intent Content Standards
 

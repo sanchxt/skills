@@ -32,13 +32,26 @@ Use this default weighting for urgent recurring-revenue ideation:
 | Competition | 2 |
 | Risk | 1 |
 
-Normalize to a 100-point score. If exact math is overkill, use the weights qualitatively and explain the tradeoffs.
+Normalize to a 100-point score: sum(score/5 x weight). Show the per-factor scores for finalists so the user can disagree with a specific number.
+
+Gates come before scores (see SKILL.md section 4). A high score never overrides a failed G1 (real pain) or G2 (money already moves).
+
+Status thresholds after gates pass: 75+ -> Build now; 60-74 -> Validate first; below 60 -> Watchlist or Avoid.
+
+## Monetization model check
+
+- Subscription: the job recurs at least monthly, or the product holds data/monitoring the user keeps coming back for.
+- One-time / lifetime: the job happens once or rarely, or the buyer segment hates subscriptions (designers, hobby-pros, Gumroad buyers). Pair with paid upgrades or a usage add-on for MRR.
+- Credits / usage: variable cost per use (AI generation, API calls, enrichment). Price credits at 4-5x cost or more.
+- Service-first: when buyers want outcomes, not tools. Charge setup + monthly, productize the repeated steps.
+
+Rough MRR sanity math to show for each top pick: reachable buyers per month x visit-to-trial % x trial-to-paid % x price. Use conservative defaults (1-3% visit-to-trial, 10-25% trial-to-paid) unless the sources show otherwise.
 
 ## Evidence Checklist
 
 For finalist ideas, try to gather:
 
-- At least 3 recent pain signals from communities, reviews, support forums, job posts, marketplace comments, or social/search demand.
+- At least 5 recent pain signals (2+ source types) from communities, reviews, support forums, job posts, marketplace comments, or social/search demand.
 - At least 3 direct competitors or substitutes, including pricing and positioning.
 - A clear buyer segment with ability and habit of paying for software.
 - One reachable acquisition channel the solo founder can start this week.

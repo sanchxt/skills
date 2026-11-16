@@ -5,7 +5,7 @@ description: Write Instagram Reels for LifeWithCofounders - Sanchit (technical, 
 
 # LifeWithCofounders
 
-Sanchit (he, technical, deep into AI) and Sanchita (she), cofounders of Eravue, a service agency. They're on camera solo or together, in English.
+Sanchit (he, technical, deep into AI) and Sanchita (she), cofounders of Eravue, a service agency. They're on camera solo or together, in English, for a **global audience**. They're based in India, but the account isn't India-only: use references, examples and prices anyone can follow (say "$" or skip the currency when the number isn't the point). Go India-specific only when the story is genuinely Indian and big, or when the detail is so specific it works for everyone.
 
 **How the viewer should see them:** the AI-native founders who are always a step ahead. They break down the big news before you understand it, build things with AI that look impossible, and run their agency on it. People follow them to stay ahead. Business owners DM them because they've watched them build.
 
@@ -15,7 +15,7 @@ Sanchit (he, technical, deep into AI) and Sanchita (she), cofounders of Eravue, 
 
 ## Lanes
 
-**1. Big news, broken down for *you*.** Pick the tech, AI or cybersecurity story that's big right now, especially in India: breaches, government moves, major AI launches, a big company doing something wild. Use this structure:
+**1. Big news, broken down for *you*.** Pick the tech, AI or cybersecurity story that's big right now, wherever it is. Global stories reach more people; an India story is worth it when it's huge or the lesson travels. Breaches, government moves, major AI launches, a big company doing something wild. Use this structure:
 - the scariest or most surprising true fact first;
 - what actually happened, in one line a non-techie gets;
 - what it means for the viewer;
@@ -32,7 +32,9 @@ Verify every fact with a web search, and keep sources and dates in the notes for
 
 **5. Series.** Recurring formats that bring people back: "AI news you actually need this week", "We build it live", "Rate my client's website, then we rebuild it". Name the series on screen.
 
-When asked for ideas, lead with lanes 1 and 2, and mix in 3–5. Every idea comes as a full script with hooks, unless the user asks for a quick list.
+**6. Trend reels, just for fun.** When something huge is happening (a giant game launch, a viral moment), make reels people enjoy and send: the two of them in the trend, AI art of the trend's look, a relatable "X but it's real life" montage, or a how-to for making that look with AI. Not a warning or an explainer of the obvious. These grow the following, and are good candidates for Instagram Trial Reels (shown to non-followers first), so offer a few hook variants.
+
+When asked for ideas, lead with lanes 1 and 2, mix in 3–6, and add lane 6 whenever a big trend is live. Every idea comes as a full script with hooks, unless the user asks for a quick list.
 
 **This account owns builds that help a real business** (a site for a shop, an ad for a stall, "Fix It In An Hour"), because that's what brings in clients. Playful builds for laughs belong to sanchitwtf.
 
@@ -41,9 +43,9 @@ When asked for ideas, lead with lanes 1 and 2, and mix in 3–5. Every idea come
 These are shapes that reliably produce big, original ideas. Combine them with a specific tool, person or place:
 
 - **AI clone experiment:** an AI version of one of them handles something real (internal chat, their calendar, a day of decisions), and the other reacts. *"For 48 hours my cofounder was texting an AI version of me."* Only clone themselves, only with consent, and never deceive clients or the public.
-- **Rebuild for someone who benefits:** the rebuild concept works when the *outcome* matters to a normal person or a business owner, not when the tech is merely impressive. Examples: rebuild a viewer's business website from the comments, a local brand's terrible site, a small shop's ordering flow, then show the before/after and what it means for them (more orders, more bookings, looking legit). Avoid rebuilding big apps like IRCTC or Zomato just to show speed: devs care, clients don't.
+- **Rebuild for someone who benefits:** the rebuild concept works when the *outcome* matters to a normal person or a business owner, not when the tech is merely impressive. Examples: rebuild a viewer's business website from the comments, a local brand's terrible site, a small shop's ordering flow, then show the before/after and what it means for them (more orders, more bookings, looking legit). Avoid rebuilding big apps like Uber or Airbnb just to show speed: devs care, clients don't.
 - **AI vs a human, on real work:** our hiring test, a client brief, a design, a pitch. Blind judging, then the reveal.
-- **Fix a real business in an hour:** a local shop, a chai tapri, a bad website. Before/after plus the owner's reaction. This is the most client-magnetic lane.
+- **Fix a real business in an hour:** a local shop, a café, a food stall, a bad website. Before/after plus the owner's reaction. This is the most client-magnetic lane.
 - **AI does a job for a day:** an intern's tasks, a designer's, theirs. What it nailed, and what it destroyed.
 - **The scary-useful demo:** what an AI can find about you or your business from one photo, one number or one website, and how to protect yourself.
 - **Build what the comments say:** take the top comment's idea, build it in a day, and post the result as a series.

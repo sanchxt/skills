@@ -10,6 +10,7 @@ Optimize existing or planned pages for the keyword cluster and intent they shoul
 2. Read `.seo/keywords/master-list.md` or relevant cluster research.
 3. Inspect the current live page when one exists.
 4. Review current SERP results for the target keyword before recommending structure.
+5. Pull the page's queries from Search Console (Performance, filter by page). Optimise for the queries it already gets impressions for, especially at positions 5-20, as well as the target keyword.
 
 ## Optimization Standards
 
@@ -19,7 +20,9 @@ Optimize existing or planned pages for the keyword cluster and intent they shoul
 - Headings: clear hierarchy, covers required SERP subtopics, includes secondary terms naturally.
 - URL: short, lowercase, hyphenated, keyword-relevant, stable.
 - Content: satisfies intent quickly, covers must-have sections, includes proof and examples.
-- Schema: choose by page type: Article, BlogPosting, FAQPage, HowTo, Product, Service, LocalBusiness, Organization, BreadcrumbList, Review, VideoObject.
+- Schema: choose by page type: Organization (with `sameAs`), WebSite, Service, LocalBusiness/ProfessionalService, Article/BlogPosting (with a real author), Product/SoftwareApplication, BreadcrumbList, VideoObject, Review only for genuine third-party reviews. Before promising a rich result, check Google's current structured-data docs: several types have been limited or dropped (FAQ rich results went to a narrow set of sites, HowTo rich results were removed). FAQPage markup can still help machines read the page, but don't sell it as a SERP feature. Markup must match visible content.
+- Answer-first: the first paragraph (and each question-style H2) gives a direct 1-3 sentence answer that a snippet or AI answer could quote. See [geo-ai-search.md](geo-ai-search.md).
+- Freshness: visible "Updated" date when the content really changed; current-year facts.
 - Images: descriptive filenames, useful alt text, compressed, dimensions set, lazy loaded below fold.
 - Internal links: 3-5 contextual outgoing links and recommended incoming links from relevant existing pages.
 - Conversion path: CTA matches awareness stage and page type.

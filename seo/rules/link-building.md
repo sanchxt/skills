@@ -19,6 +19,8 @@ Build sustainable authority through ethical backlinks, digital PR, useful assets
 - **Resource pages/directories:** curated, maintained, niche-relevant resources.
 - **Broken link building:** replace dead resources with better current content.
 - **Unlinked mentions:** ask for attribution where brand is already mentioned.
+- **AI-cited sources:** the review sites, roundups, directories and community threads that AI engines cite for your prompts. Getting accurately listed or mentioned there drives both links and AI recommendations (even unlinked brand mentions count for GEO).
+- **Profiles and reviews:** a consistent Google Business Profile, LinkedIn, and the niche review platforms (e.g. Clutch/GoodFirms for agencies, G2/Capterra for software), with genuine client reviews. Never fake or incentivise reviews.
 - **Partnerships:** vendors, customers, integrations, associations, communities.
 - **Internal links:** fastest authority distribution lever under direct control.
 

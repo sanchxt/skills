@@ -1,49 +1,59 @@
 # Skills
 
-Private backup and source repository for Sanchit's personal Claude Code skills, mirrored from:
+Backup and source repository for Sanchit's personal Claude Code skills, an exact mirror of:
 
 ```text
 C:\Users\Sanchit\.claude\skills
 ```
 
-These were originally Codex skills. They were migrated to Claude Code in November 2026: Codex-only `agents/openai.yaml` files were removed and Codex-specific wording and paths were updated. Earlier Codex versions remain in git history.
+The `cmo` and `eravue-*` skills are symlinks locally (their source lives in the eravue-portfolio repo under `.claude/skills/`); they are copied here as plain folders.
 
-## Short-form content skills (rebuilt from scratch, Nov 2026)
+These were originally Codex skills, migrated to Claude Code in November 2026. Earlier Codex versions, and skills that have since been removed locally, remain in git history.
+
+## Eravue agency skills
+
+| Folder | Purpose |
+| --- | --- |
+| `cmo` | Eravue's CMO and head of growth: plans, channel and budget decisions, delegates to the sub-skills below, weekly reviews. |
+| `eravue-outreach` | Finding clients and drafting outreach (Reddit, X, LinkedIn, Upwork, Google Maps, email, WhatsApp) with a lead tracker. |
+| `eravue-instagram` | Instagram prospecting, profile audits, cold DMs, sending approved DMs. |
+| `eravue-sales` | Offers and pricing, discovery calls, objections, proposals, closing, onboarding, upsells. |
+| `eravue-social` | Founder-led LinkedIn, X and Instagram: content calendar, posts, profile fixes, publishing approved posts. |
+| `eravue-conversion` | Site conversion tracking (Umami), CRO fixes, Google Business Profile, directories, reviews. |
+| `eravue-metrics` | Growth scoreboard and ledger: revenue, funnel, site, search and social numbers. |
+| `eravue-blog` | Write, schedule and publish posts on the eravue.com blog through its CLI. |
+| `eravue-motion` | Motion-graphics videos end to end (Remotion): script, looks, motion, captions, voice, music, formats, QA, master. |
+| `blog-writer` | SEO blog autopilot: research, pick a topic, write, quality gate, publish. |
+| `seo` | SEO + AI-search strategy: audits, Search Console, keyword research, content, links. |
+
+## Short-form content skills
 
 | Folder | Purpose |
 | --- | --- |
 | `short-form-craft` | Shared engine: format menu, hook archetypes, retention and pacing, human-voice / anti-AI-tells pass, scroll-test critic, platform notes. Every account skill reads it. |
-| `founderspawn` | FounderSpawn YouTube Shorts: multi-voice VC skits (about anything), real VC clip cuts, brainrot narration, horror over gameplay. ElevenLabs v3 formatting. |
+| `founderspawn` | FounderSpawn YouTube Shorts: multi-voice VC skits, real VC clip cuts, brainrot narration, horror over gameplay. |
 | `editsogoated` | EditSoGoated hard edits: angle, hook frame, song, beat map, clip list. |
-| `lifewithcofounders` | LifeWithCofounders Instagram: AI-native founders. Big news breakdowns, result → how to build it, build-in-public, takes, series. Owns business-helping builds. |
-| `sanchitafeels` | SanchitaFeels: explore-grade text reels, voiceover lists, psychology with a jolt, theories. Varied beyond Indian-relatable. |
-| `sanchitwtf` | sanchitwtf: AI experiments, "how I made this" tutorials, "I Build What You Comment" series. |
+| `lifewithcofounders` | LifeWithCofounders Instagram: AI-native founders, news breakdowns, how-to-build-it, build-in-public. |
+| `sanchitafeels` | SanchitaFeels: text reels, voiceover lists, psychology, theories. |
+| `sanchitwtf` | sanchitwtf: AI experiments, "how I made this" tutorials, community series. |
+| `dailygoatgame` | Gaming Shorts planning (inactive account). |
+| `boss-lobbies-fish-voiceover` | Gaming voiceover scripts for TTS (inactive account). |
 
 Each account skill has a `log.md`. Add post results there so the skill learns what works.
 
-## Other skills
+## Research and other skills
 
-| Folder | Skill name | Purpose |
-| --- | --- | --- |
-| `boss-lobbies-fish-voiceover` | `boss-lobbies-fish-voiceover` | Voiceover scripts (inactive account). |
-| `brandkit` | `brandkit` | Premium brand kit and visual identity generation. |
-| `bug-finder` | `bug-finder` | Rigorous implementation review and bug finding. |
-| `chrome-devtools-cli` | `chrome-devtools-cli` | Chrome DevTools CLI usage. |
-| `cmo` | `cmo` | CMO-style marketing, social strategy, and content workflows. |
-| `dailygoatgame` | `dailygoatgame` | Gaming Shorts planning (inactive account). |
-| `gpt-tasteskill` | `gpt-taste` | Advanced UX/UI and GSAP motion direction. |
-| `grill-me` | `grill-me` | Relentless design and plan interrogation. |
-| `image-to-code-skill` | `image-to-code` | Image-first website implementation guidance. |
-| `imagegen-frontend-mobile` | `imagegen-frontend-mobile` | Premium mobile app screen image direction. |
-| `imagegen-frontend-web` | `imagegen-frontend-web` | Premium website design reference generation. |
-| `instagram-opportunity-finder` | `instagram-opportunity-finder` | Instagram prospect discovery and compliant outreach prep. |
-| `interview` | `interview` | Persistent clarification and requirement gathering. |
-| `reddit-demand-capture` | `reddit-demand-capture` | Reddit demand capture research and response drafting. |
-| `reddit-opportunity-finder` | `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. Note: references a `lead_memory.py` that is not in this repo. |
-| `saas-ideation` | `saas-ideation` | Current-market SaaS and app ideation for solo builders. |
-| `seo` | `seo` | SEO strategy, audits, keyword research, and content planning. |
-| `taste-skill` | `design-taste-frontend` | Senior UI/UX design engineering guidance. |
-| `twitter-opportunity-finder` | `twitter-opportunity-finder` | X/Twitter opportunity discovery. Note: references a `lead_memory.py` that is not in this repo. |
+| Folder | Purpose |
+| --- | --- |
+| `instagram-opportunity-finder` | Instagram prospect discovery and compliant outreach prep. |
+| `reddit-demand-capture` | Reddit demand-capture research and response drafting. |
+| `reddit-opportunity-finder` | Fresh Reddit lead and pain-point discovery. |
+| `twitter-opportunity-finder` | X/Twitter opportunity discovery. |
+| `saas-ideation` | Validated product ideas for a solo AI-assisted builder. |
+| `brandkit` | Premium brand kit and visual identity generation. |
+| `chrome-devtools-cli` | Chrome DevTools CLI usage. |
+| `grill-me` | Relentless design and plan interrogation. |
+| `interview` | Persistent clarification and requirement gathering. |
 
 ## Restore
 

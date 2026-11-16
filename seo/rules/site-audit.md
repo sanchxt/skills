@@ -2,120 +2,89 @@
 
 ## Purpose
 
-Audit technical SEO, indexability, page performance, on-page quality, and internal linking. Findings must be specific, reproducible, and prioritized by impact.
+Audit crawlability, indexability, redirects, internal links, performance, structured data and on-page basics. Every finding must be reproducible (URL plus how you checked) and prioritised by impact. Fix what you can directly when you have repo access and approval.
 
-## Before Starting
+## Before starting
 
-1. Read `.seo/project-profile.md`.
-2. Read previous `.seo/audits/` reports if present.
-3. Ask for priority pages when unknown, or audit homepage plus 5-20 important pages based on navigation, sitemap, and user goals.
-4. Use live browser inspection when the site is accessible.
+1. Read `.seo/project-profile.md` and the latest `.seo/audits/` file.
+2. Pull Search Console indexing data first ([search-console.md](search-console.md)). It tells you where to look.
+3. If you have the repo, read how routing, metadata, canonicals, sitemap, robots and redirects are generated. Fixes belong in code, not one-off patches.
 
-## Mandatory Checks
+## Checks
 
-### Crawlability and Indexation
+### Crawl and index
 
-- HTTPS and canonical host consistency.
-- `robots.txt` and sitemap availability.
-- No accidental `noindex`, `nofollow`, blocked resources, redirect loops, 4xx/5xx errors.
-- Canonicals are present and self-referential or intentionally consolidated.
-- Important pages are included in sitemap and internally linked.
+- `robots.txt`: reachable, not blocking important paths or CSS/JS, sitemap declared, AI crawler policy deliberate ([geo-ai-search.md](geo-ai-search.md)).
+- Sitemap: returns 200, only canonical 200 URLs (no redirects, 404s, noindex or parameter URLs), lastmod truthful, count matches the real page count.
+- Every important page: status 200, self-canonical, indexable, in the sitemap, linked internally.
+- One host and protocol (https, www or not), one trailing-slash policy; the alternatives 301 to it.
+- Parameter and filter URLs (`?tag=`, `?page=`, `?ref=`, `?utm_`) canonicalised or noindexed so they don't bloat the index.
+- Old URLs (from GSC, old sitemaps, backlinks) 301 in a single hop to the closest live page.
 
-### Metadata and Content Structure
+### Internal links
 
-- Unique title tags and meta descriptions.
-- One H1 per page.
-- Logical H2/H3 structure.
-- Keyword and intent alignment.
-- Thin, duplicate, outdated, or cannibalized content.
-- E-E-A-T signals: author, sources, trust markers, last updated dates, reviews, credentials.
+- Run [../scripts/crawl-internal-links.mjs](../scripts/crawl-internal-links.mjs) over the sitemap: every internal link that doesn't return 200, and which pages contain it.
+- Orphans: sitemap URLs with no internal links in.
+- Click depth: money pages within 2-3 clicks of the home page.
+- Hubs: service/pillar pages link to their supporting articles and back, with descriptive anchors.
 
-### Technical and Performance
+### Rendering and performance
 
-- Core Web Vitals: LCP, INP, CLS.
-- Mobile responsiveness and viewport behavior.
-- Image size, dimensions, lazy loading, modern formats, and alt text.
-- JS rendering risks and crawlable navigation.
-- Structured data JSON-LD and rich result eligibility.
-- Hreflang, pagination, faceted navigation, or parameter issues when relevant.
+- Key content and links present in the server HTML (`curl`), not only after JavaScript.
+- Core Web Vitals: field data from the Search Console CWV report or PageSpeed Insights (CrUX). With no field data, use Lighthouse lab data (Chrome DevTools MCP `lighthouse_audit` / `performance_start_trace`) and label it lab data.
+- Mobile layout at 360-414px; images sized, compressed, modern formats, lazy below the fold; fonts not blocking.
 
-### Internal Links and Architecture
+### On-page basics (each template plus key pages)
 
-- Orphan or low-linked pages.
-- Important pages deeper than 3 clicks.
-- Weak or generic anchor text.
-- Missing pillar-cluster relationships.
-- Broken internal links.
+- Unique title and meta description of sensible length; one H1; logical H2/H3.
+- Intent matches the queries the page gets in GSC.
+- Visible authorship, dates, contact and business details (trust).
+- Structured data valid (Rich Results Test or Schema.org validator via Chrome) and matching visible content.
 
-## Browser / DevTools Usage
+### Quality and duplication
 
-Use Chrome DevTools MCP, Chrome plugin, browser automation, or web tools when available to inspect:
+- Thin, overlapping or off-offer pages: send them to [content-inventory.md](content-inventory.md).
+- Cannibalisation: several URLs ranking for the same query in GSC.
+
+## Useful in-page script
+
+Run with `evaluate_script` on any page:
 
 ```javascript
-document.title
-document.querySelector('meta[name="description"]')?.content
-[...document.querySelectorAll('h1,h2,h3,h4,h5,h6')].map(h => [h.tagName, h.textContent.trim()])
-document.querySelector('link[rel="canonical"]')?.href
-[...document.querySelectorAll('img')].map(img => ({src: img.src, alt: img.alt, loading: img.loading}))
-[...document.querySelectorAll('a[href]')].map(a => ({href: a.href, text: a.textContent.trim()}))
-[...document.querySelectorAll('script[type="application/ld+json"]')].map(s => s.textContent)
-document.querySelector('meta[name="robots"]')?.content
+() => ({
+  title: document.title,
+  description: document.querySelector('meta[name="description"]')?.content,
+  canonical: document.querySelector('link[rel="canonical"]')?.href,
+  robots: document.querySelector('meta[name="robots"]')?.content,
+  h: [...document.querySelectorAll('h1,h2,h3')].map(h => `${h.tagName} ${h.textContent.trim()}`).slice(0, 40),
+  schemaTypes: [...document.querySelectorAll('script[type="application/ld+json"]')].flatMap(s => { try { const j = JSON.parse(s.textContent); return (j['@graph'] || [j]).map(x => x['@type']); } catch { return ['INVALID JSON']; } }),
+  imgsNoAlt: [...document.querySelectorAll('img')].filter(i => !i.alt).map(i => i.src).slice(0, 20),
+  internalLinks: new Set([...document.querySelectorAll('a[href]')].map(a => a.href).filter(h => h.startsWith(location.origin))).size,
+})
 ```
 
-Use PageSpeed Insights or Lighthouse-style data when available. If unavailable, explain the limitation and still audit visible performance risks.
+For many URLs at once, use curl plus node instead of the browser (see [../scripts/](../scripts/)).
 
 ## Severity
 
-- **Critical:** blocking crawl/index/ranking or breaking key pages.
-- **High:** materially reducing rank potential or CTR.
-- **Medium:** meaningful optimization gaps.
-- **Low:** polish or minor hygiene.
+- **Critical:** blocks crawling/indexing or breaks key pages (noindex on money pages, 5xx, robots block, redirect loops).
+- **High:** materially limits ranking or CTR (404s with links/traffic, missing redirects after a redesign, broken internal links, duplicate titles on key pages, slow LCP on mobile).
+- **Medium:** optimisation gaps.
+- **Low:** polish.
 
-## Output Template
+## Output
 
-Store in `.seo/audits/{YYYY-MM-DD}.md`:
+`.seo/audits/YYYY-MM-DD.md`:
 
 ```markdown
-# SEO Audit - {Website}
+# SEO Audit - {site} - {date}
+**Pages checked:** {n}  **Tools:** {GSC, curl crawl, Lighthouse, ...}
 
-**Date:** {date}
-**Pages Audited:** {count}
-**Sources/Tools:** {browser, PageSpeed, sitemap, SERP, etc.}
+## Summary
+- Biggest blocker: ...
+- Fixed during this audit: ...
+- Needs the user: ...
 
-## Executive Summary
-- **Overall health:** {score or qualitative}
-- **Biggest ranking blocker:** {finding}
-- **Fastest quick win:** {finding}
-- **Highest-leverage strategic fix:** {finding}
-
-## Priority Fixes
-| Priority | Severity | Issue | Pages | Impact | Fix | Effort |
-|----------|----------|-------|-------|--------|-----|--------|
-| 1 | {Critical/High} | {issue} | {URLs} | {impact} | {specific fix} | {S/M/L} |
-
-## Page Findings
-### {URL}
-| Element | Status | Finding | Recommendation |
-|---------|--------|---------|----------------|
-| Title | {pass/warn/fail} | {current} | {fix} |
-| Meta description | {status} | {current} | {fix} |
-| H1/headings | {status} | {finding} | {fix} |
-| Canonical/indexing | {status} | {finding} | {fix} |
-| Content/intent | {status} | {finding} | {fix} |
-| Internal links | {status} | {finding} | {fix} |
-| Images | {status} | {finding} | {fix} |
-| Schema | {status} | {finding} | {fix} |
-| Performance | {status} | {finding} | {fix} |
-
-## Technical Notes
-- **Robots.txt:** {finding}
-- **Sitemap:** {finding}
-- **Core Web Vitals:** {finding}
-- **Structured data:** {finding}
-- **Mobile:** {finding}
-
-## Next Actions
-1. {specific fix}
-2. {specific fix}
-3. {specific fix}
+## Findings
+| # | Severity | Issue | URLs / template | Evidence | Fix | Effort | Status |
 ```
