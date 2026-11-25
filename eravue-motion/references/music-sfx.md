@@ -35,6 +35,20 @@ It prints BPM, the first beat, the beat and bar length, and a bar-by-bar energy 
 - If the BPM is half or double what you feel, re-run with `--bpm` (the phase is still detected).
 - Confirm the drop by ear. If it feels early or late, nudge `firstBeat` by ±0.05–0.1 s.
 
+## Original music (default): `pnpm compose <slug>`
+
+Eravue owns the result (it is synthesised, with no samples), so it is cleared for ads too. Run `pnpm compose <slug> --init` (or let `pnpm new` do it), then edit `music/compositions/<slug>.plan.json`:
+- **moments:** `drop` (required: drums in), `lift` (the arp joins: build or reveal), `breakdown` (drums out: the reflective line), `back`, `outro` (under the CTA), `final` (the last chord). Each one is a beat id, `beat:word`, or seconds.
+- **mood:** `night` / `warm` / `bright` / `tense`.
+- **why:** what each moment lands on.
+
+`pnpm compose <slug>` then:
+- searches 72–96 BPM and the offset so bar lines land on those moments (the drop exactly; it warns if another moment is more than 0.25 s off);
+- writes the arrangement to `music/compositions/<slug>.json` and renders it with `compose-lofi.py` to `E:/video-edits/eravue-motion/music/<slug>-original.wav`;
+- registers the track in `beds.json` and `LICENSES.md`, and builds the ducked `public/<slug>/bed.wav`.
+
+A hand-written `<slug>.json` with no plan is rendered as it is. `"engine": "paper"` (marimba with a tempo per section, absolute times) goes through `compose-paper.py`. Use a licensed track (below) only when the brief needs a specific sound.
+
 ## Arranging to the story (`music/beds.json` + `scripts/music-bed.mjs`)
 
 The track is cut into whole-beat segments `[fromBeat, toBeat)` and joined with 50 ms crossfades that land exactly on beats, so edits are inaudible:

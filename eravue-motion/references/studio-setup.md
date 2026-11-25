@@ -58,21 +58,24 @@ eravue-motion/
 
 **Measuring text** (anything sized to a word): use `textBox()` from `lib/measure` and call `useFontsReady()` at the top of that component. Every look registers its fonts with `trackFont(loadFont(...))`; do the same in any new look. Don't call `@remotion/layout-utils`' `measureText` directly: Google fonts arrive after the first render and it caches that first (fallback-font) width, which made marks come out short and kinetic words overflow. Looks load `latin` + `latin-ext` so ₹ renders in the brand font.
 
-**Not built yet:** nothing from the original list. Build new pieces as reusable components driven by the look's tokens, add them to a kit sheet, and list them here.
+**2026-11-20: the kit merge.** Everything reusable now goes through `src/components/index.ts`, and the studio's KIT.md is the live catalog. Use it instead of the lists above.
+- **Footage:** `ClipFrame` + `framings`.
+- **Captions:** one `Captions` component with 7 eravue styles + 39 ReelStudio presets.
+- **Transitions:** `Blend`/`Accent`/`Overlay`/`TransitionSound`, 39 ReelStudio presets.
+- **Editorial paper pieces**, plus `LookBg`.
+- **Vendoring:** ReelStudio's engines are copied by `pnpm sync:reel` into `src/vendor/`.
+- **Temp files:** Remotion temp goes to `.tmp/` on D: (`scripts/tmp-dir.mjs`), because C: is nearly full.
 
 ## Starting a new video
 
-1. Pick a kebab-case slug (`missed-call-reel`). Raw media goes in `E:\video-edits\eravue-motion\<slug>\`.
-2. `src/videos/<slug>/script.json`: `{ "id": "<slug>", "beats": [{ "id": "h1", "text": "..." }] }` (script-first). Recording-first: `pnpm vo:sync <slug>` makes one beat per sentence if the script is missing.
-3. `src/videos/<slug>/<Name>.tsx`: a component taking `VideoProps`. It imports its look, `timing.json` (+ `script.json` for captions), uses `makeCues`, `LAYOUTS[layout]`, `captionWords` + `makeChunks`/`ChunkAccent`, `<Audio src={staticFile(timing.audio)}>`, the bed `staticFile("<slug>/bed.wav")` when `withMusic`, and `<SafeZone>` when `showSafe`.
-4. Register in `Root.tsx`: `{formats("Name", Name, Math.ceil((timing.duration + 3) * FPS), ["v", "f"])}`.
+`pnpm new <slug> <clip|voice> --look paper --voice default --handle @x` does all the setup. Then fix `script.json` from `vo/<slug>/check.md` and run `pnpm vo:align`. Write `cues.ts`, build the scenes from the kit, and run `pnpm compose <slug>` (original music fitted to the story moments), `pnpm stills`, then `pnpm ship <slug>`. Details are in the studio's KIT.md and README.md.
 
 ## Commands
 
 ```bash
 pnpm voice analyze "<raw>"                      # report + suggested chain
 pnpm voice process "<raw>" public/<slug>/vo.wav # clean + level to -16 LUFS, writes .ab.wav to listen to
-pnpm vo:sync <slug>                              # word timings via Subtitle Edit Faster-Whisper-XXL -> timing.json
+pnpm vo:sync <slug>                              # word timings via large-v3-turbo (GPU; --engine xxl = Subtitle Edit medium.en) -> timing.json
 pnpm vo:scratch -Id <slug>; pnpm vo:align <slug> # robotic placeholder for timing only
 pnpm vo:cuts <slug> "<raw>"                      # rebuild VO from Premiere cuts (vo/<slug>/cuts.json)
 pnpm vo:srt <slug>; pnpm captions <slug>         # timing / caption lines from vo/<slug>/captions.srt
@@ -97,5 +100,5 @@ Remotion is free for individuals and companies of up to 3 people. Eravue qualifi
 
 - Full **ffmpeg/ffprobe** on PATH (installed via winget: Gyan.FFmpeg 8.x, includes loudnorm, sidechaincompress, deesser, afftdn, silenceremove).
 - Node 20+ (installed: v26) and pnpm (installed: 10).
-- Python only for `premiere-cuts.py` (stdlib only).
-- Subtitle Edit (`D:\Subtitle Edit`) with Purfview Faster-Whisper-XXL + medium.en for word timings (`WHISPER_XXL_DIR` overrides the folder).
+- Python: `premiere-cuts.py` (stdlib only); `whisper-turbo.py` runs with ReelStudio's venv (`D:\projects\SOCIAL MEDIA\short-form-quick-edits\.venv`: faster-whisper + CUDA 12 wheels). Model: large-v3-turbo in `E:\.cache\hub` (`HF_HOME=E:\.cache`).
+- Subtitle Edit (`D:\Subtitle Edit`) with Purfview Faster-Whisper-XXL + medium.en as the fallback for word timings (`--engine xxl`; `WHISPER_XXL_DIR` overrides the folder).

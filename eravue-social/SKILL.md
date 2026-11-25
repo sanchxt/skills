@@ -5,6 +5,10 @@ description: Founder-led social media for Eravue - plans and writes LinkedIn pos
 
 # Eravue social
 
+> **Storage: Eravue HQ (live from 2026-11-25).** Eravue HQ (https://app.eravue.com) is the only record of leads, every message sent and received, drafts, Upwork jobs, clients, content, the proof library, tasks, notes, metrics and both founders' days. Use the `eravue-hq` MCP tools as described in `references/hq.md`. Wherever this skill mentions `leads.py`, `growth.py`, `.outreach/*.csv`, `.growth/*.csv`, the claude.ai Daily Board (ArtifactData `days`) or an approval list in a `.growth/daily/*.md` file, do the HQ equivalent from the tool map in `references/hq.md` instead. Those files are frozen (renamed `*.frozen-2026-11-25.csv`) and must not be written. Approval happens in the HQ Outbox: queue messages with `draft_create` and send only drafts a founder approved (`drafts_list status=APPROVED`), then call `draft_mark_sent`. If the `eravue-hq` tools aren't connected, stop and ask the founder to connect them (HQ → Settings → Agents). Everything else in this skill (voice, quotas, research and safety rules) still applies.
+>
+> For social: the content calendar is HQ Studio (`content_upsert` per post with account, format, `scheduledAt`, hook and caption). Posts that need approval: `draft_create` type POST with `contentId`. After posting: `stage: POSTED`, `postUrl`, and later `metrics`.
+
 Social exists to **win clients**: make the founders known, trusted and top-of-mind for the businesses they're pitching, and turn attention into DMs. Followers are a means, not the goal. A post that gets 300 views from 10 clinic owners beats 30k views from students.
 
 ## Before anything

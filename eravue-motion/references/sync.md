@@ -18,14 +18,14 @@ Words are normalised (lowercase, letters and digits only). Beats come from `scri
 
 | Source | How | Accuracy |
 |---|---|---|
-| **Single take (+ script)** | `pnpm vo:sync <slug> [audio]`: transcribes locally with **Subtitle Edit's Faster-Whisper-XXL** (`D:\Subtitle Edit\SpeechToText\Purfview-Faster-Whisper-XXL`, medium.en, already installed, about 3.7× real time), writes `vo/<slug>/words.json` and timing.json. Nothing is downloaded. Fallback only if Subtitle Edit is gone: `--engine whispercpp` (downloads about 150 MB once) | about 50 ms per word |
+| **Single take (+ script)** | `pnpm vo:sync <slug> [audio]`: transcribes locally with **faster-whisper large-v3-turbo on the GPU** (ReelStudio's install: Python `D:\projects\SOCIAL MEDIA\short-form-quick-edits\.venv`, model cached at `E:\.cache\hub\models--mobiuslabsgmbh--faster-whisper-large-v3-turbo` via `HF_HOME=E:\.cache`, loaded offline, about 20× real time, CPU fallback built in; runs through `scripts/whisper-turbo.py`, `REELSTUDIO_PYTHON` overrides the Python), writes `vo/<slug>/words.json` and timing.json. Nothing is downloaded. Fallbacks: `--engine xxl` (Subtitle Edit's Faster-Whisper-XXL, `D:\Subtitle Edit\SpeechToText\Purfview-Faster-Whisper-XXL`, medium.en, about 3.7× real time; used automatically if ReelStudio's Python is missing), and only if both are gone: `--engine whispercpp` (downloads about 150 MB once) | about 50 ms per word |
 | **Recording-first, no script** | `pnpm vo:sync <slug> <audio>` writes `script.json` with one beat per sentence from the transcript. Fix spelling and beat ids, remove retakes (repeated sentences show up as duplicate beats), then `pnpm vo:align <slug> vo/<slug>/words.json` | about 50 ms |
 | **Recording + transcript from the user** | Put their text in `script.json` (their transcript wins for spelling and beats; one beat per sentence if they gave no split), then `pnpm vo:sync` for the times | about 50 ms |
 | **Premiere edit + SRT** | Put the SRT at `vo/<slug>/captions.srt` and the caption→beat map at `vo/<slug>/srt-beats.json`, then `pnpm vo:srt <slug>`. Words are spread inside each caption by word length | about 200 ms (fine for soft effects; use vo:sync for tight sync) |
 | **ElevenLabs voice** | Use the character alignment it returns (convert to word starts) | exact |
 | **Scratch TTS** (timing placeholder before recording) | `pnpm vo:scratch` + `pnpm vo:align`. Never published | exact for the scratch |
 
-medium.en is the installed model, and it's good on names. Don't pass another `--model` unless the user agrees, because Faster-Whisper-XXL would download it. Always fix spelling from the script, never trust whisper for "n8n", "Claude" or client names.
+Installed models: **large-v3-turbo** (default engine `turbo`, the most accurate) and **medium.en** (engine `xxl`). Don't pass another `--model` unless the user agrees: the turbo engine loads offline and fails on a model that isn't cached, and Faster-Whisper-XXL would download it. ReelStudio (`D:\projects\SOCIAL MEDIA\short-form-quick-edits`, `npm run transcribe`) uses the same large-v3-turbo model for raw talking-head footage. Always fix spelling from the script, never trust whisper for "n8n", "Claude" or client names.
 
 If the voice was tightened (`voice.mjs --tighten`) or re-edited, re-run the timing step. Timings belong to one exact audio file.
 

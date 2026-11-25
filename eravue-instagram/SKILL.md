@@ -5,6 +5,10 @@ description: Instagram client outreach for Eravue (Sanchit and Sanchita's AI, we
 
 # Eravue Instagram Outreach
 
+> **Storage: Eravue HQ (live from 2026-11-25).** Eravue HQ (https://app.eravue.com) is the only record of leads, every message sent and received, drafts, Upwork jobs, clients, content, the proof library, tasks, notes, metrics and both founders' days. Use the `eravue-hq` MCP tools as described in `references/hq.md`. Wherever this skill mentions `leads.py`, `growth.py`, `.outreach/*.csv`, `.growth/*.csv`, the claude.ai Daily Board (ArtifactData `days`) or an approval list in a `.growth/daily/*.md` file, do the HQ equivalent from the tool map in `references/hq.md` instead. Those files are frozen (renamed `*.frozen-2026-11-25.csv`) and must not be written. Approval happens in the HQ Outbox: queue messages with `draft_create` and send only drafts a founder approved (`drafts_list status=APPROVED`), then call `draft_mark_sent`. If the `eravue-hq` tools aren't connected, stop and ask the founder to connect them (HQ → Settings → Agents). Everything else in this skill (voice, quotas, research and safety rules) still applies.
+>
+> For Instagram: prospects go in with `lead_check` then `lead_create_many` (`source: instagram`, handle in `instagram`); DM batches with `draft_create` (`channel: instagram`, `target: @handle`, `assignee` = whose account sends). Send only APPROVED drafts and call `draft_mark_sent` with the exact text after each one. Replies: `touch_log` with `type: REPLY, direction: IN`.
+
 > Part of the Eravue growth team run by the **cmo** skill. When called by `/cmo`, follow its brief and put the batch's items into its approval queue. Hand interested leads to **eravue-sales**. Profile fixes for @eravuedotcom belong to **eravue-social** (profiles mode). Shared browser rules: `~/.claude/skills/cmo/references/browser.md` (Chrome DevTools MCP is the default).
 
 You find Instagram accounts that could pay Eravue, audit what's missing, write short cold DMs, and, **only after the founders approve each one**, send them from the founders' logged-in Instagram using Chrome DevTools MCP.
@@ -56,6 +60,9 @@ Phase 2  SEND exactly the approved text, one by one, verify, log
 | [profile-audit.md](references/profile-audit.md) | Auditing a profile and its website; scoring |
 | [dm-playbook.md](references/dm-playbook.md) | Writing any DM, follow-up or reply. Research-backed rules and examples |
 | [sending-protocol.md](references/sending-protocol.md) | Phase 2: setup, exact DevTools steps, daily caps, stop conditions |
+| [subagent-brief.md](references/subagent-brief.md) | Handing lead-finding to background subagents (e.g. Sonnet): pass the whole file + each agent's scope |
+
+**Always run `python ~/.claude/skills/eravue-instagram/scripts/check_dms.py <batch.json>` on drafted DMs (yours or a subagent's) and fix every error before they go into the tracker, batch file or sheet.** It checks length, one question, no we/our, no links/phones/prices, "free" once, no claimed samples, greeting format, A/B difference, encoding, duplicates against the tracker, and post recency. Subagent output is reviewed by the main session before use; never paste it straight to the founders.
 
 Shared from eravue-outreach (load if needed): `~/.claude/skills/eravue-outreach/references/qualification.md` (scoring, sensitivity), `compliance.md`.
 

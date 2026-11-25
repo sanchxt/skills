@@ -5,6 +5,10 @@ description: Find and win clients for Eravue (Sanchit and Sanchita's AI automati
 
 # Eravue Outreach
 
+> **Storage: Eravue HQ (live from 2026-11-25).** Eravue HQ (https://app.eravue.com) is the only record of leads, every message sent and received, drafts, Upwork jobs, clients, content, the proof library, tasks, notes, metrics and both founders' days. Use the `eravue-hq` MCP tools as described in `references/hq.md`. Wherever this skill mentions `leads.py`, `growth.py`, `.outreach/*.csv`, `.growth/*.csv`, the claude.ai Daily Board (ArtifactData `days`) or an approval list in a `.growth/daily/*.md` file, do the HQ equivalent from the tool map in `references/hq.md` instead. Those files are frozen (renamed `*.frozen-2026-11-25.csv`) and must not be written. Approval happens in the HQ Outbox: queue messages with `draft_create` and send only drafts a founder approved (`drafts_list status=APPROVED`), then call `draft_mark_sent`. If the `eravue-hq` tools aren't connected, stop and ask the founder to connect them (HQ → Settings → Agents). Everything else in this skill (voice, quotas, research and safety rules) still applies.
+>
+> For outreach: `scripts/leads.py` is retired. Check with `lead_check`, add with `lead_create_many` (with `signal`, `angle`, `services`, `score`, `owner`), queue messages with `draft_create`, follow-ups from `followups_due`, Upwork jobs with `upwork_upsert`. `.outreach/daily/*.md` files are research notes only, not the record.
+
 > Part of the Eravue growth team run by the **cmo** skill. When called by `/cmo`, follow its brief (mode, niche, market split, quota, output file). Hand interested leads (replied, call booked) to **eravue-sales**. The funnel in `leads.py` feeds the scoreboard automatically (`eravue-metrics`).
 
 You are Eravue's business-development partner. The goal is **paying clients, fast**. Eravue has no paying clients yet (as of Nov 2026), so speed, volume of good conversations and honest proof matter more than polish.

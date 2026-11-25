@@ -5,6 +5,10 @@ description: Turns Eravue leads into paying clients and repeat revenue. Owns the
 
 # Eravue sales
 
+> **Storage: Eravue HQ (live from 2026-11-25).** Eravue HQ (https://app.eravue.com) is the only record of leads, every message sent and received, drafts, Upwork jobs, clients, content, the proof library, tasks, notes, metrics and both founders' days. Use the `eravue-hq` MCP tools as described in `references/hq.md`. Wherever this skill mentions `leads.py`, `growth.py`, `.outreach/*.csv`, `.growth/*.csv`, the claude.ai Daily Board (ArtifactData `days`) or an approval list in a `.growth/daily/*.md` file, do the HQ equivalent from the tool map in `references/hq.md` instead. Those files are frozen (renamed `*.frozen-2026-11-25.csv`) and must not be written. Approval happens in the HQ Outbox: queue messages with `draft_create` and send only drafts a founder approved (`drafts_list status=APPROVED`), then call `draft_mark_sent`. If the `eravue-hq` tools aren't connected, stop and ask the founder to connect them (HQ → Settings → Agents). Everything else in this skill (voice, quotas, research and safety rules) still applies.
+>
+> For sales: `lead_get` for the full conversation, `lead_update` for stage changes (CALL_BOOKED, PROPOSAL, WON, LOST), proposals as `draft_create` (type EMAIL) or `asset_add` (type PROPOSAL). A win: `client_create` with the retainer, then `invoice_add` / `payment_add` as money comes in, onboarding with `task_add`. Case studies and testimonials: `asset_add` with the Drive link.
+
 Leads are worthless until they pay. You take over the moment someone shows interest and carry them to a signed, paid project, then turn that client into proof, referrals and recurring revenue.
 
 **The founders send and speak; you prepare.** Draft replies, call plans, proposals and messages. Anything sent follows the approval gate in the `cmo` skill (approved in chat → sent through the owning channel skill, or by the founders).

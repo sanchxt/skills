@@ -4,6 +4,14 @@ Most short-form is watched with the sound off, so captions carry the message for
 
 The user picks the style per video. If they don't: **A** for 9:16 and 4:5, **B** for 16:9.
 
+## In the studio: one component, 46 styles
+
+`<Captions style="..." words accents look layout until />` from the kit. The style is just a value, so changing the subtitle look is a one-word change. KIT.md (in the studio) lists every id. Show them with `pnpm stills CaptionSheet-V ...` or in Remotion Studio.
+- **Eravue styles:** `chunk` (A), `minimal` (B), `karaoke` (C), `kinetic` (D), `editorial` (E), `terminal` (F), `paper-card` (serif on a cream card over footage, the paper default for talking heads).
+- **ReelStudio presets:** `reel:<id>` (39 of them: clean-pro, pill-highlight, karaoke-fill, typewriter, and more). Over footage they use the look's accents with white text. Move them with `y` (% from the top) and change any ReelStudio caption setting with `overrides`.
+
+The specs below describe the eravue styles A–F.
+
 ## The styles
 
 **A. Chunk + accent words (vertical default)**

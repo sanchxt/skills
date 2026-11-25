@@ -52,6 +52,15 @@ It reads the file locally (nothing uploaded) and prints:
 
 The target curve is shaped on the long-term average speech spectrum for male or female speakers, with a small "polished voiceover" lift in presence and air. It's a reference: the script corrects only part of any difference and caps every move, so it stays the same voice.
 
+## Profiles (default in the studio): `pnpm voice:profile`
+
+`pnpm new` and `pnpm voice:profile <slug> <media> --profile <id> [--set "clarity+=20 warmth-=10"]` run ReelStudio's voice chain (auto-EQ, denoise, de-ess, compression, gate) and level the result to -16 LUFS in `public/<slug>/vo.wav`.
+- **Profiles:** `default`, `crisp`, `warm`, `broadcast`, and any you save. The list is shared with ReelStudio (`brand/voice-profiles.json`).
+- **Commands:** `pnpm voice:profile <slug> --set ...` re-tunes the last run, `ab` writes before/after clips to listen to, `save <id> "desc"` keeps the settings as a new profile, `list` shows the profiles.
+- **`--profile keep`:** only levels the audio, for audio that was already cleaned.
+
+The measured eravue chain below (`pnpm voice process`) is still there for analysing a take or coaching a re-record.
+
 ## Processing: `node scripts/voice.mjs process <raw> <out.wav> [options]`
 
 Chain order (each step only if the analysis calls for it):

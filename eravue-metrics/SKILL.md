@@ -5,6 +5,10 @@ description: Eravue's growth scoreboard and tracking. Pulls and records every gr
 
 # Eravue metrics
 
+> **Storage: Eravue HQ (live from 2026-11-25).** Eravue HQ (https://app.eravue.com) is the only record of leads, every message sent and received, drafts, Upwork jobs, clients, content, the proof library, tasks, notes, metrics and both founders' days. Use the `eravue-hq` MCP tools as described in `references/hq.md`. Wherever this skill mentions `leads.py`, `growth.py`, `.outreach/*.csv`, `.growth/*.csv`, the claude.ai Daily Board (ArtifactData `days`) or an approval list in a `.growth/daily/*.md` file, do the HQ equivalent from the tool map in `references/hq.md` instead. Those files are frozen (renamed `*.frozen-2026-11-25.csv`) and must not be written. Approval happens in the HQ Outbox: queue messages with `draft_create` and send only drafts a founder approved (`drafts_list status=APPROVED`), then call `draft_mark_sent`. If the `eravue-hq` tools aren't connected, stop and ask the founder to connect them (HQ → Settings → Agents). Everything else in this skill (voice, quotas, research and safety rules) still applies.
+>
+> For metrics: `growth.py` and the `.growth/*.csv` ledger are retired. Record with `metric_record` (dotted keys, with source), read with `scoreboard` and `metric_history`. Revenue and MRR come from HQ Clients (`clients_list`, `client_get`); record money with `invoice_add` / `payment_add`.
+
 One ledger, one script. If a number isn't in `.growth/`, it didn't happen. Every other Eravue skill writes its results here, and `/cmo` decides from here.
 
 ```bash
